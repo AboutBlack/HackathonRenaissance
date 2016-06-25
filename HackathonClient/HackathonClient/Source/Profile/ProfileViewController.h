@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CYLMineViewController.h"
 
-@interface ProfileViewController : UIViewController
+@interface ProfileViewController : CYLMineViewController
 
 @end

@@ -46,6 +46,12 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     self.exploreTableView.delegate = self;
     self.exploreTableView.dataSource = self;
     
+    self.exploreTableView.tableFooterView = ({
+        
+        UIView *bg = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.exploreTableView.frame), 50)];
+        bg;
+    });
+    
     [self.view addSubview:self.exploreTableView];
     
     [self.exploreTableView mas_makeConstraints:^(MASConstraintMaker *make) {

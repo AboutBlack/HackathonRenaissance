@@ -104,7 +104,7 @@
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
         }];
         self.hyb_lastViewInCell = self.jggView;
-        self.hyb_bottomOffsetToCell = 0.0;
+        self.hyb_bottomOffsetToCell = 10.0;
         
        
     }

@@ -962,6 +962,140 @@
           'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/SVProgressHUD.build/module.modulemap"
         }
       ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TZAssetCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZAssetCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZAssetModel.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZAssetModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZImageManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZImagePickerController-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers/TZImagePickerController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZImagePickerController-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/TZImagePickerController/TZImagePickerController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZImagePickerController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZPhotoPickerController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZPhotoPreviewCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZPhotoPreviewController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "TZVideoPlayerController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+Layout.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/UIView+Layout.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/TZImagePickerController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "XHBadgeLabel.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHBadgeLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHLoginFooterView.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHLoginFooterView.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers/XHSetting-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/XHSetting/XHSetting-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHSetting.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewBlocks.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewBlocks.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewSection.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewSection.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTextFieldTableViewCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTextFieldTableViewCell.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/XHSetting.build/module.modulemap"
+        }
+      ]
     }
   ]
 }
