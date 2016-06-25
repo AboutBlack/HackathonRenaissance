@@ -82,6 +82,7 @@
 		C54B5BE91D1EA697005B8273 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C54B5BEA1D1EA697005B8273 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C54B5BEE1D1EBB0E005B8273 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +147,7 @@
 				B16E37AA1D1E781B00877D4A /* Source */,
 				B16E37961D1E51E500877D4A /* AppDelegate.h */,
 				B16E37971D1E51E500877D4A /* AppDelegate.m */,
+				C54B5BEE1D1EBB0E005B8273 /* Header.h */,
 				B16E379F1D1E51E500877D4A /* Assets.xcassets */,
 				B16E37A11D1E51E500877D4A /* LaunchScreen.storyboard */,
 				B16E37A41D1E51E500877D4A /* Info.plist */,
