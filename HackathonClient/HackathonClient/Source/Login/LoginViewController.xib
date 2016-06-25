@@ -91,6 +91,9 @@
                         <constraint firstAttribute="width" constant="84" id="TXh-JH-Aim"/>
                     </constraints>
                     <state key="normal" title="忘记密码"/>
+                    <connections>
+                        <action selector="forgetPasswordClick:" destination="-1" eventType="touchUpInside" id="fpD-Wc-hjZ"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
