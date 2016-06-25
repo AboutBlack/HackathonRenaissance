@@ -221,10 +221,6 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_bg_waiting" translatesAutoresizingMaskIntoConstraints="NO" id="7WB-79-HQa">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
                         </imageView>
-                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="431" translatesAutoresizingMaskIntoConstraints="NO" id="RXM-j7-Juc" userLabel="video">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXI-MK-N9v">
                             <rect key="frame" x="0.0" y="160" width="600" height="0.0"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -240,6 +236,10 @@
                                 <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="1dX-Xu-RGA"/>
                             </connections>
                         </button>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="431" translatesAutoresizingMaskIntoConstraints="NO" id="RXM-j7-Juc" userLabel="video">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                     <constraints>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" id="46w-aI-hJ4"/>

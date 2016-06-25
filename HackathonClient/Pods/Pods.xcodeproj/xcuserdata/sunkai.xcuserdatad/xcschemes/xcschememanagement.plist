@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>HappyDNS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,12 +52,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>005F1FDD6332BFBA87A3210A153C36DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06FB25AF690EE1F4EB0A02CA85DC0BBE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>380C0DBCE528048751B269C67A0696B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AA967B515D1D4636CE58CAAB8720B36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CB7594A46EBDBF50A3BB0F05BBA22DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>551387786A3ACFEC2CE4B3A906E60528</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,11 +15,21 @@
 
 @implementation LiveViewController
 
+#pragma mark - Lifecycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
 //    [self.view setBackgroundColor:[UIColor blackColor]];
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+#pragma mark - Action
 
 - (IBAction)hangUp:(id)sender {
     
@@ -27,6 +37,20 @@
         
     }];
     
+}
+
+#pragma mark - Status Bar
+
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
+    return UIStatusBarAnimationSlide;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 
