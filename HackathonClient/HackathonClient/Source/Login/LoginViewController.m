@@ -46,16 +46,13 @@
     __weak LoginViewController *weakSelf = self;
     [manager POST:@"http://hack2016.applinzi.com/Home/Index/Login" parameters:dict progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
-        NSDictionary *dict = responseObject;
-        NSInteger status = (NSInteger)dict[@"status"];
-        if (status == 0) {
-            // 成功;
-                if (weakSelf.block) {
-                    weakSelf.block();
-                    [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
-                    [[NSUserDefaults standardUserDefaults]setObject:userName forKey:kUser_Name];
-                    [[NSUserDefaults standardUserDefaults]synchronize];
-                }
+        // 成功;
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
+        [[NSUserDefaults standardUserDefaults]setObject:userName forKey:kUser_Name];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+        
+        if (weakSelf.block) {
+            weakSelf.block();
         }
         
     } failure:^(NSURLSessionTask *operation, NSError *error) {
