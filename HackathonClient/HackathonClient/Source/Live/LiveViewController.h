@@ -12,6 +12,9 @@
 
 @interface LiveViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, AgoraRtcEngineDelegate>
 
+@property (nonatomic, assign) NSUInteger userid;
+@property (nonatomic, assign) NSUInteger roomid;
+
 @property(nonatomic,retain) NSDictionary *dictionary;
 
 @property (assign, nonatomic) AGDChatType chatType;

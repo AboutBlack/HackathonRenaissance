@@ -183,8 +183,9 @@
 - (void)joinChannel
 {
     [self showAlertLabelWithString:NSLocalizedString(@"没人看你直播哦", nil)];
+    
     __weak typeof(self) weakSelf = self;
-    [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:0 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
+    [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:999 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
         [weakSelf.agoraKit setEnableSpeakerphone:YES];
         if (weakSelf.type == AGDChatTypeAudio) {
