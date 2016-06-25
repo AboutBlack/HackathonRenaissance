@@ -11,5 +11,6 @@
 #define kHas_User_Login @"UserHasLogin"
 typedef void(^loginBlock)(void);
 @interface LoginViewController : UIViewController
+- (IBAction)forgetPasswordClick:(id)sender;
 @property (nonatomic,copy)loginBlock block;
 @end
