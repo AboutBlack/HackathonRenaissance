@@ -23,6 +23,10 @@
 
 @property (nonatomic, strong) UILabel *nameLabel;
 @property (nonatomic, strong) UILabel *descLabel;
+@property (nonatomic, strong) UILabel *timeLibel;
+
+
+
 @property (nonatomic, strong) UIImageView *headImageView;
 
 @property (nonatomic, strong) JMessageModel *messageModel;
@@ -75,7 +79,22 @@
             make.top.mas_equalTo(self.nameLabel.mas_bottom).offset(kGAP);
         }];
         
-        //
+        self.timeLibel =  [UILabel new];
+        self.timeLibel.backgroundColor = [UIColor whiteColor];
+        [self.contentView addSubview:self.timeLibel];
+        self.timeLibel.numberOfLines = 0;
+        self.timeLibel.textAlignment = NSTextAlignmentRight;
+        self.timeLibel.font = [UIFont systemFontOfSize:14.0];
+        [self.timeLibel mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+            make.top.mas_equalTo(self.nameLabel.mas_top);
+            make.right.mas_equalTo(self.contentView.mas_right).offset(-5);
+            make.width.mas_equalTo(200);
+            make.height.mas_equalTo(self.nameLabel);
+        }];
+
+        
+
         
         
         self.jggView = [JGridView new];
@@ -96,21 +115,30 @@
 - (void)configCellWithModel:(JMessageModel *)model indexPath:(NSIndexPath *)indexPath {
     self.indexPath = indexPath;
     
-    self.nameLabel.text = @"jcaicai";
-    self.descLabel.text = @"messageassdsfgdfgdfghdfghdfghdghsdfgsdfg";
+    self.nameLabel.text = model.user;
+    self.descLabel.text = model.live_desc;
+    self.timeLibel.text = [NSString stringWithFormat:@"直播时间:%@",model.time];;
     
-    [self.headImageView sd_setImageWithURL:nil placeholderImage:[UIImage imageNamed:@"placeholder"]];
+    [self.headImageView sd_setImageWithURL:[NSURL URLWithString:model.live_img] placeholderImage:[UIImage imageNamed:@"placeholder"]];
     self.messageModel = model;
     NSMutableParagraphStyle *muStyle = [[NSMutableParagraphStyle alloc]init];
     muStyle.lineSpacing = 2;
     NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:14.0],NSParagraphStyleAttributeName:muStyle};
-    CGFloat h = [self.descLabel.text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - kGAP-kAvatar_Size - 2*kGAP, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size.height;
+  //  CGFloat h = [self.descLabel.text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - kGAP-kAvatar_Size - 2*kGAP, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size.height;
     
     
     
     CGFloat jjg_height = 0.0;
     CGFloat jjg_width = 0.0;
-    if (model.messageBigPics.count>=0&&model.messageBigPics.count<=3) {
+    
+    if (model.messageBigPics == nil) {
+        
+        model.messageBigPics = [[NSMutableArray alloc] init];
+    }
+    
+    [model.messageBigPics addObject:model.live_img];
+    
+    if (model.messageBigPics.count>0&&model.messageBigPics.count<=3) {
         jjg_height = [JGridView imageHeight];
         jjg_width  = (model.messageBigPics.count)*([JGridView imageWidth]+kJGG_GAP)-kJGG_GAP;
     }else if (model.messageBigPics.count>3&&model.messageBigPics.count<=6){
