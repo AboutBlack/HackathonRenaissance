@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - CYLTabBarController (1.5.4)
   - HappyDNS (0.3.5)
+  - HSDatePickerViewController (1.0.4)
   - Mantle (2.0.7):
     - Mantle/extobjc (= 2.0.7)
   - Mantle/extobjc (2.0.7)
@@ -29,11 +30,13 @@ PODS:
   - SDWebImage/Core (3.8.1)
   - SVProgressHUD (2.0.3)
   - TZImagePickerController (1.5.0)
+  - Wilddog (1.0.4)
   - XHSetting (1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - CYLTabBarController
+  - HSDatePickerViewController (~> 1.0)
   - Mantle
   - Masonry
   - MJRefresh
@@ -41,6 +44,7 @@ DEPENDENCIES:
   - SDWebImage
   - SVProgressHUD
   - TZImagePickerController (~> 1.5.0)
+  - Wilddog
   - XHSetting
 
 EXTERNAL SOURCES:
@@ -57,6 +61,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CYLTabBarController: 7c2985a03fa6bde1d5a38d32e021f31ae46fff7c
   HappyDNS: 6f8cf46fa7c0b98a6591fe8ecb2e08d9907a6e8b
+  HSDatePickerViewController: 5a72b71f8c3b10e76f2c28a898f8572b551432a6
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
@@ -64,6 +69,7 @@ SPEC CHECKSUMS:
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   TZImagePickerController: d09eef6042852a9dd19224ae4e874f7430852a51
+  Wilddog: f609fa2589c880d6487d02b032ee1b7daa429898
   XHSetting: 8dc92608adcf9453f4bbb334cd10de680387537c
 
 COCOAPODS: 0.39.0

@@ -10,6 +10,7 @@
 #import "CYLTabBarController.h"
 //#import "CYLMineViewController.h"
 #import "LiveViewController.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface CYLPlusButtonSubclass ()<UIActionSheetDelegate> {
     CGFloat _buttonImageHeight;
@@ -114,8 +115,22 @@
     
     LiveViewController *liveVC = [[LiveViewController alloc] initWithNibName:@"LiveViewController" bundle:nil];
     
+    
+    
     [tabBarController presentViewController:liveVC animated:YES completion:^{
+        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         
+        NSString *username = [[NSUserDefaults standardUserDefaults] stringForKey:@"user_Name"];
+        
+        NSString *url = @"http://hack2016.applinzi.com/index.php/Home/Index/livestatus";
+        
+        [manager POST:url parameters:@{@"user": username, @"status": @"1"} progress:^(NSProgress * _Nonnull uploadProgress) {
+            NSLog(@"post success");
+        } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            NSLog(@"%@",error);  //这里打印错误信息
+        }];
     }];
     
 }

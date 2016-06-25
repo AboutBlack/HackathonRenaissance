@@ -12,6 +12,8 @@ pod 'CYLTabBarController'
 pod 'MJRefresh'
 pod 'XHSetting'
 pod 'TZImagePickerController', '~> 1.5.0'
+pod 'HSDatePickerViewController', '~> 1.0'
+pod 'Wilddog'
 
 #pod 'Qiniu'
 end

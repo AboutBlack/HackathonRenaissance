@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DAE3E8498CC79B6186723D4E'
+               BlueprintIdentifier = '6DCDA319BD03CB99F82BB518'
                BlueprintName = 'XHSetting'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'XHSetting.framework'>
