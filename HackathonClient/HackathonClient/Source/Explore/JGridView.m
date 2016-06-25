@@ -77,6 +77,14 @@
             make.size.mas_equalTo(CGSizeMake([JGridView imageWidth], [JGridView imageHeight]));
         }];
         
+        UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(iv.frame), 50)];
+        
+        scroll.backgroundColor = [UIColor grayColor];
+        scroll.alpha = 0.5;
+        
+        [iv addSubview:scroll];
+
+        
 //        UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:jggView action:@selector(tapImageAction:)];
 //        [iv addGestureRecognizer:singleTap];
     }

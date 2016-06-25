@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HSDatePickerViewController/HSDatePickerViewControllerDemo/HSDatePickerViewController/HSDatePickerViewController.m \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target\ Support\ Files/HSDatePickerViewController/HSDatePickerViewController-prefix.pch \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HSDatePickerViewController/HSDatePickerViewControllerDemo/HSDatePickerViewController/HSDatePickerViewController.h

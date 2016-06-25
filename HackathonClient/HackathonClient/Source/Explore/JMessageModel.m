@@ -22,7 +22,8 @@
              @"room":@"room",
              @"status":@"status",
              @"time":@"time",
-             @"user":@"user"
+             @"user":@"user",
+             @"mail":@"mail"
              };
 }
 

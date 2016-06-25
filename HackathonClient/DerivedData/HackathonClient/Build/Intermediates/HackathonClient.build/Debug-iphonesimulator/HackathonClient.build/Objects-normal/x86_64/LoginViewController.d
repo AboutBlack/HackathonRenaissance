@@ -8,6 +8,4 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Header.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers/TZImagePickerController.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers/TZAssetModel.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Header.h
