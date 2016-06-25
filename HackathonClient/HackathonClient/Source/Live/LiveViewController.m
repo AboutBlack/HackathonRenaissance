@@ -7,6 +7,8 @@
 //
 
 #import "LiveViewController.h"
+#import <AFNetworking/AFNetworking.h>
+//#import <Wilddog/Wilddog.h>
 
 @interface LiveViewController (){
     __block AgoraRtcStats *lastStat_;
@@ -138,7 +140,31 @@
     [self setNeedsStatusBarAppearanceUpdate];
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    NSString *username = [[NSUserDefaults standardUserDefaults] stringForKey:@"user_Name"];
+    
+    NSString *url = @"http://hack2016.applinzi.com/index.php/Home/Index/livestatus";
+    
+    [manager POST:url parameters:@{@"user": username, @"status": @"2"} progress:^(NSProgress * _Nonnull uploadProgress) {
+        NSLog(@"post success");
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"%@",error);  //这里打印错误信息
+    }];
+}
+
 #pragma mark - Action
+- (IBAction)releaseGood:(id)sender {
+    [self.titleField resignFirstResponder];
+    [self.priceField resignFirstResponder];
+    
+    
+    // todo: 打接口
+}
 
 - (IBAction)didClickBackView:(id)sender
 {
