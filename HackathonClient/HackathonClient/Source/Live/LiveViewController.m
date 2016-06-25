@@ -9,11 +9,14 @@
 #import "LiveViewController.h"
 #import <AFNetworking/AFNetworking.h>
 #import <Wilddog/Wilddog.h>
+#import "TLTagsControl.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
-@interface LiveViewController (){
+@interface LiveViewController () {
     __block AgoraRtcStats *lastStat_;
 }
 
+@property (weak, nonatomic) IBOutlet TLTagsControl *tagsControl;
 @property (weak, nonatomic) IBOutlet UITextField *titleField;
 @property (weak, nonatomic) IBOutlet UITextField *priceField;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
@@ -49,7 +52,7 @@
 
 @implementation LiveViewController
 
-#pragma mark - keyboard 
+#pragma mark - keyboard
 
 - (void)dealloc {
     
@@ -102,6 +105,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tagsControl.mode = TLTagsControlModeList;
+    [self.tagsControl setBackgroundColor:[UIColor clearColor]];
     
     UITapGestureRecognizer *tapGR = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(packupKeyboard:)];
     [self.videoMainView addGestureRecognizer:tapGR];
@@ -127,6 +132,20 @@
 //    [self selectSpeakerButtons:YES];
     [self initAgoraKit];
     NSLog(@"self: %@", self);
+    
+    NSString *url = @"https://aboutblank-hackathonclient.wilddogio.com/goods";
+    Wilddog *goodsRef = [[Wilddog alloc] initWithUrl:url];
+    [goodsRef observeEventType:WEventTypeValue withBlock:^(WDataSnapshot *snapshot) {
+        //        NSLog(@"商品发布：%@ -> %@", snapshot.key, snapshot.value);
+        NSDictionary *dic = (NSDictionary *)snapshot.value;
+        
+        for (NSString *key in dic.allKeys) {
+            NSLog(@"%@,%@\n", dic[key][@"name"], dic[key][@"price"]);
+            [self.tagsControl addTag:dic[key][@"name"]];
+        }
+        
+    }];
+
     
 //    [self.view setBackgroundColor:[UIColor blackColor]];
 }
@@ -174,6 +193,11 @@
         
         [nameRef setValue:self.titleField.text];
         [priceRef setValue:self.priceField.text];
+        
+        self.titleField.text = @"";
+        self.priceField.text = @"";
+        
+        [SVProgressHUD showSuccessWithStatus:@"上架成功"];
     }
 }
 

@@ -10,6 +10,7 @@
 #import "CYLTabBarController.h"
 #import "LoginViewController.h"
 #import "CYLTabBarControllerConfig.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface AppDelegate ()
 
