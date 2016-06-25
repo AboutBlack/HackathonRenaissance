@@ -18,6 +18,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>HSDatePickerViewController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>HappyDNS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -79,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>Wilddog.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>XHSetting.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -97,12 +107,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>153FDEE5C3B775D92D41DF9764DB9860</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>29DD99664D189A7CA206368F493B1E0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31350C6EF49F1333A7EC5402716B5560</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -117,12 +137,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5330A63278370E6680920BA84F5C24E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>551387786A3ACFEC2CE4B3A906E60528</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>55F1C45777467A7EDA644E6D95A83D86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6013CD95AF005EBAF47DF994D1D77FC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67B24F2D8886922A7FDF1263D842DCE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -138,6 +173,16 @@
 			<true/>
 		</dict>
 		<key>814D7F0C846B4DCB10FE73B71013FF5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F5E9BCEC8FD2032E1E4BAABACF8605C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A02C3687B87547217F8A1E229F5FCCC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -158,6 +203,11 @@
 			<true/>
 		</dict>
 		<key>B793764AA64D038A3F660C1AD0D86F8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2F903264A57370F445EE2F39CCAC6C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

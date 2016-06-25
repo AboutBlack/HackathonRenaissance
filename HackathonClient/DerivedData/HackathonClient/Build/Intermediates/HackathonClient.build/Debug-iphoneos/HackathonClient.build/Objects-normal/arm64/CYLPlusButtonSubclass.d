@@ -6,4 +6,24 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/CYLTabBarController.framework/Headers/UIViewController+CYLTabBarControllerExtention.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/LiveViewController.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/View/AGDChatCell.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/Agora/AgoraRtcEngineKit.framework/Headers/AgoraRtcEngineKit.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/Agora/AgoraRtcEngineKit.framework/Headers/AgoraRtcEngineKit.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap

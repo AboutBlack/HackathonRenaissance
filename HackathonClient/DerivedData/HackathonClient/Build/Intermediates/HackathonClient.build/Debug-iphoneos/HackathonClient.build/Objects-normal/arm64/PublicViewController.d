@@ -10,4 +10,7 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HSDatePickerViewController.framework/Headers/HSDatePickerViewController.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Category/NSString+Hack.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD.h

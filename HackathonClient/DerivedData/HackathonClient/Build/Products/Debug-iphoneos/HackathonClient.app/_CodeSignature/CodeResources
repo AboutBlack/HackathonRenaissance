@@ -37,7 +37,7 @@
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		Ab2/497uuYc8zJatC/sJyKDIGfg=
+		3pz7LtuS6qL/Lw7bDXrxN5fQ9LI=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -49,7 +49,7 @@
 		</data>
 		<key>Frameworks/CYLTabBarController.framework/CYLTabBarController</key>
 		<data>
-		65evXKs0zfIXUN/QspfMDB3v6ng=
+		YLNr1eVoITjXp5nh1cL0wzs/NyU=
 		</data>
 		<key>Frameworks/CYLTabBarController.framework/Info.plist</key>
 		<data>
@@ -59,9 +59,25 @@
 		<data>
 		SIbk2iXM7Dwm3v3GxuUe2EJ6FHs=
 		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/HSDatePickerViewController</key>
+		<data>
+		IyAEGvbPeWWmX5rhiYDwS+rq5dU=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/HSDatePickerViewController.nib</key>
+		<data>
+		PrOANwKGUXKLHracFMaJaDgapIs=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/Info.plist</key>
+		<data>
+		jIxdjMpB5E0tp38TZbPacOV1UQE=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/_CodeSignature/CodeResources</key>
+		<data>
+		D8iy23J403qo/1tGL/5zJh2FA/A=
+		</data>
 		<key>Frameworks/HappyDNS.framework/HappyDNS</key>
 		<data>
-		DMjAlXBIQqbLFEt2npCM5jO6x/U=
+		JqzIPXuyLtCe4F6oiRCWl0bIm8U=
 		</data>
 		<key>Frameworks/HappyDNS.framework/Info.plist</key>
 		<data>
@@ -77,7 +93,7 @@
 		</data>
 		<key>Frameworks/MJRefresh.framework/MJRefresh</key>
 		<data>
-		7jG8eUXA7HUO+ih4WsiiPcwjBss=
+		0EaD4UeYSCXybRAya3yVkUi7TAQ=
 		</data>
 		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png</key>
 		<data>
@@ -120,7 +136,7 @@
 		</data>
 		<key>Frameworks/Mantle.framework/Mantle</key>
 		<data>
-		YTlTPRDWVTTuVICTxmEKiQ6x4nY=
+		9hyKTNULqvYMKUHjXQS/gSNmSoo=
 		</data>
 		<key>Frameworks/Mantle.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -132,7 +148,7 @@
 		</data>
 		<key>Frameworks/Masonry.framework/Masonry</key>
 		<data>
-		aR+RD6D5JyPHOVHRFbjGR5ZmfsA=
+		rM+vo/ILyei4+kBMxFhx7lJ8CCU=
 		</data>
 		<key>Frameworks/Masonry.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -144,7 +160,7 @@
 		</data>
 		<key>Frameworks/Qiniu.framework/Qiniu</key>
 		<data>
-		6tdJxooFzCOBK6Mwdz8kxrcKlB0=
+		5UvkHBioJKhGB6CxZJ5olkh9f6w=
 		</data>
 		<key>Frameworks/Qiniu.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -156,7 +172,7 @@
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		xuTy+xqMdQ1fOY8fZaKLNj8oHKo=
+		moUxOvsUyRD9A/J6b3QHymkX6JA=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -168,7 +184,7 @@
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD</key>
 		<data>
-		8V9qG4vFj502tvMeyVYoYrKxdpk=
+		aS+ndjcXFUodXhadhfmPCJJgtpQ=
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -228,7 +244,7 @@
 		</data>
 		<key>Frameworks/TZImagePickerController.framework/TZImagePickerController</key>
 		<data>
-		M8y1wiJDKtvQ/ZVtgN1+dDzyQcM=
+		Dvob/Q+TIUhipfER1qr5TdfNJyQ=
 		</data>
 		<key>Frameworks/TZImagePickerController.framework/TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png</key>
 		<data>
@@ -306,13 +322,25 @@
 		<data>
 		DltJVTQbYkowka7GLVf2GWasSeU=
 		</data>
+		<key>Frameworks/Wilddog.framework/Info.plist</key>
+		<data>
+		pEjHvPl/uls8z5kBuxEwHUds7lE=
+		</data>
+		<key>Frameworks/Wilddog.framework/Wilddog</key>
+		<data>
+		+/hqyTFnGJ5pzl1Y/wwrNkI2DFw=
+		</data>
+		<key>Frameworks/Wilddog.framework/_CodeSignature/CodeResources</key>
+		<data>
+		RJoQ2XHfp3hfA4iJbUsUIMANZjo=
+		</data>
 		<key>Frameworks/XHSetting.framework/Info.plist</key>
 		<data>
 		Yvek+zwKY/ycxAcrC6OjYWH9bw0=
 		</data>
 		<key>Frameworks/XHSetting.framework/XHSetting</key>
 		<data>
-		7ae2NVj5KQp74O3enANkw/GCBV0=
+		71bargfHqIm/ZIXNtFczEuuox0U=
 		</data>
 		<key>Frameworks/XHSetting.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -324,7 +352,7 @@
 		</data>
 		<key>LiveViewController.nib</key>
 		<data>
-		Uu5KxOyzHSZ8e0oeiVcAQoe/+2Y=
+		u1lVXtjiuUs+WrUksTBv4Is0Slw=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
@@ -336,7 +364,7 @@
 		</data>
 		<key>PublicViewController.nib</key>
 		<data>
-		Xe+uMO3a60ifa/OArFJvZwQM9fM=
+		ljVlu+r5pTafjgCnJ8g0MUySgZk=
 		</data>
 		<key>Settings.plist</key>
 		<data>
@@ -386,7 +414,7 @@
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		Ab2/497uuYc8zJatC/sJyKDIGfg=
+		3pz7LtuS6qL/Lw7bDXrxN5fQ9LI=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -398,7 +426,7 @@
 		</data>
 		<key>Frameworks/CYLTabBarController.framework/CYLTabBarController</key>
 		<data>
-		65evXKs0zfIXUN/QspfMDB3v6ng=
+		YLNr1eVoITjXp5nh1cL0wzs/NyU=
 		</data>
 		<key>Frameworks/CYLTabBarController.framework/Info.plist</key>
 		<data>
@@ -408,9 +436,25 @@
 		<data>
 		SIbk2iXM7Dwm3v3GxuUe2EJ6FHs=
 		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/HSDatePickerViewController</key>
+		<data>
+		IyAEGvbPeWWmX5rhiYDwS+rq5dU=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/HSDatePickerViewController.nib</key>
+		<data>
+		PrOANwKGUXKLHracFMaJaDgapIs=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/Info.plist</key>
+		<data>
+		jIxdjMpB5E0tp38TZbPacOV1UQE=
+		</data>
+		<key>Frameworks/HSDatePickerViewController.framework/_CodeSignature/CodeResources</key>
+		<data>
+		D8iy23J403qo/1tGL/5zJh2FA/A=
+		</data>
 		<key>Frameworks/HappyDNS.framework/HappyDNS</key>
 		<data>
-		DMjAlXBIQqbLFEt2npCM5jO6x/U=
+		JqzIPXuyLtCe4F6oiRCWl0bIm8U=
 		</data>
 		<key>Frameworks/HappyDNS.framework/Info.plist</key>
 		<data>
@@ -426,7 +470,7 @@
 		</data>
 		<key>Frameworks/MJRefresh.framework/MJRefresh</key>
 		<data>
-		7jG8eUXA7HUO+ih4WsiiPcwjBss=
+		0EaD4UeYSCXybRAya3yVkUi7TAQ=
 		</data>
 		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png</key>
 		<data>
@@ -469,7 +513,7 @@
 		</data>
 		<key>Frameworks/Mantle.framework/Mantle</key>
 		<data>
-		YTlTPRDWVTTuVICTxmEKiQ6x4nY=
+		9hyKTNULqvYMKUHjXQS/gSNmSoo=
 		</data>
 		<key>Frameworks/Mantle.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -481,7 +525,7 @@
 		</data>
 		<key>Frameworks/Masonry.framework/Masonry</key>
 		<data>
-		aR+RD6D5JyPHOVHRFbjGR5ZmfsA=
+		rM+vo/ILyei4+kBMxFhx7lJ8CCU=
 		</data>
 		<key>Frameworks/Masonry.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -493,7 +537,7 @@
 		</data>
 		<key>Frameworks/Qiniu.framework/Qiniu</key>
 		<data>
-		6tdJxooFzCOBK6Mwdz8kxrcKlB0=
+		5UvkHBioJKhGB6CxZJ5olkh9f6w=
 		</data>
 		<key>Frameworks/Qiniu.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -505,7 +549,7 @@
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		xuTy+xqMdQ1fOY8fZaKLNj8oHKo=
+		moUxOvsUyRD9A/J6b3QHymkX6JA=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -517,7 +561,7 @@
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD</key>
 		<data>
-		8V9qG4vFj502tvMeyVYoYrKxdpk=
+		aS+ndjcXFUodXhadhfmPCJJgtpQ=
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -577,7 +621,7 @@
 		</data>
 		<key>Frameworks/TZImagePickerController.framework/TZImagePickerController</key>
 		<data>
-		M8y1wiJDKtvQ/ZVtgN1+dDzyQcM=
+		Dvob/Q+TIUhipfER1qr5TdfNJyQ=
 		</data>
 		<key>Frameworks/TZImagePickerController.framework/TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png</key>
 		<data>
@@ -655,13 +699,25 @@
 		<data>
 		DltJVTQbYkowka7GLVf2GWasSeU=
 		</data>
+		<key>Frameworks/Wilddog.framework/Info.plist</key>
+		<data>
+		pEjHvPl/uls8z5kBuxEwHUds7lE=
+		</data>
+		<key>Frameworks/Wilddog.framework/Wilddog</key>
+		<data>
+		+/hqyTFnGJ5pzl1Y/wwrNkI2DFw=
+		</data>
+		<key>Frameworks/Wilddog.framework/_CodeSignature/CodeResources</key>
+		<data>
+		RJoQ2XHfp3hfA4iJbUsUIMANZjo=
+		</data>
 		<key>Frameworks/XHSetting.framework/Info.plist</key>
 		<data>
 		Yvek+zwKY/ycxAcrC6OjYWH9bw0=
 		</data>
 		<key>Frameworks/XHSetting.framework/XHSetting</key>
 		<data>
-		7ae2NVj5KQp74O3enANkw/GCBV0=
+		71bargfHqIm/ZIXNtFczEuuox0U=
 		</data>
 		<key>Frameworks/XHSetting.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -669,7 +725,7 @@
 		</data>
 		<key>LiveViewController.nib</key>
 		<data>
-		Uu5KxOyzHSZ8e0oeiVcAQoe/+2Y=
+		u1lVXtjiuUs+WrUksTBv4Is0Slw=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
@@ -677,7 +733,7 @@
 		</data>
 		<key>PublicViewController.nib</key>
 		<data>
-		Xe+uMO3a60ifa/OArFJvZwQM9fM=
+		ljVlu+r5pTafjgCnJ8g0MUySgZk=
 		</data>
 		<key>Settings.plist</key>
 		<data>

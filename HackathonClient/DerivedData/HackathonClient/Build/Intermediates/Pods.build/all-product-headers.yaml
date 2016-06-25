@@ -168,6 +168,38 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HSDatePickerViewController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HSDatePickerViewController-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HSDatePickerViewController.framework/Headers/HSDatePickerViewController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HSDatePickerViewController-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/HSDatePickerViewController/HSDatePickerViewController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HSDatePickerViewController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HSDatePickerViewController/HSDatePickerViewControllerDemo/HSDatePickerViewController/HSDatePickerViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HSDatePickerViewController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/HSDatePickerViewController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HappyDNS.framework/Headers",
       'contents': [
         {
@@ -1032,6 +1064,83 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/TZImagePickerController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Wilddog.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WAuthData.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WAuthData.h"
+        },
+        {
+          'type': 'file',
+          'name': "WAuthType.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WAuthType.h"
+        },
+        {
+          'type': 'file',
+          'name': "WConfig.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "WDataSnapshot.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WDataSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "WEventType.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "WMutableData.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WMutableData.h"
+        },
+        {
+          'type': 'file',
+          'name': "WQuery.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "WTransactionResult.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WTransactionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "Wilddog-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Wilddog.framework/Headers/Wilddog-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Wilddog-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/Wilddog/Wilddog-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Wilddog.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/Wilddog.h"
+        },
+        {
+          'type': 'file',
+          'name': "WilddogApp.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Wilddog/WilddogApp.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Wilddog.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/Wilddog.build/module.modulemap"
         }
       ]
     },
