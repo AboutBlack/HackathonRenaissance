@@ -7,8 +7,15 @@
 //
 
 #import "PublicViewController.h"
+#import "Header.h"
 
-@interface PublicViewController ()
+@interface PublicViewController ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *titleTextField;
+@property (weak, nonatomic) IBOutlet UITextField *authorTextField;
+@property (weak, nonatomic) IBOutlet UITextField *timeTextField;
+@property (weak, nonatomic) IBOutlet UIButton *uploadImageButton;
+- (IBAction)uploadImageButtonClick:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *submitButtonClick;
 
 @end
 
@@ -17,21 +24,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)awakeFromNib
+{
+    [self.titleTextField setDelegate:self];
+    [self.authorTextField setDelegate:self];
+    [self.timeTextField setDelegate:self];
+    NSString *author = [[NSUserDefaults standardUserDefaults]objectForKey:kUser_Name];
+    self.authorTextField = author;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)uploadImageButtonClick:(UIButton *)sender {
 }
-*/
 
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    if (textField == self.titleTextField) {
+        return YES;
+    } else if (textField == self.authorTextField) {
+        return NO;
+    } else if (textField == self.titleTextField) {
+        return NO;
+    }
+    return NO;
+}
 @end
