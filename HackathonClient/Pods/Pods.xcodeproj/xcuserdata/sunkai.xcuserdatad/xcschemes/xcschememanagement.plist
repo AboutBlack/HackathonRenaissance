@@ -6,68 +6,68 @@
 	<dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>CYLTabBarController.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>HappyDNS.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-HackathonClient.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Qiniu.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TZImagePickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XHSetting.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>005F1FDD6332BFBA87A3210A153C36DB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>06FB25AF690EE1F4EB0A02CA85DC0BBE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>139534321BC209310841C1A1AA59BA10</key>
+		<key>07FE1A7B577A9753B3FB171B5B3FA1CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,22 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36E6A59CB6203701724986B5FBD991DA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>380C0DBCE528048751B269C67A0696B4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4AA967B515D1D4636CE58CAAB8720B36</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4CB7594A46EBDBF50A3BB0F05BBA22DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,32 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57D6F6183B569D4802AE17680E98E70D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6013CD95AF005EBAF47DF994D1D77FC8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>65BBAED548A98C774BDC8B17CC0EC686</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>70435B136B0821D6010B14C1A8C24264</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>756394A3CE2576A5D3C363AFC93FF563</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>776360DCF80CD42BA9C7000AF4D9E199</key>
+		<key>7071FF2CE55DBDEA23C83B843021300A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -142,7 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>830B89C5E166DB7A6B04678F8124CFEA</key>
+		<key>A208FF66A7303085C67DA380C303EA25</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,27 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B29314372246DCDB2C4FB21659ECD375</key>
+		<key>B1C9A895892411164B4A4CC505D197F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C220288F0DE061D4E0464E850DDE42C5</key>
+		<key>B793764AA64D038A3F660C1AD0D86F8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D46D7DFB397BE57EEECD074243C003E2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E318D52AE8A95259CF9CD9CB5B910C49</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEC32BDE675EC1367C7DEF46505816C1</key>
+		<key>E6C0089C67646A89DCD1ED1D0BDE4410</key>
 		<dict>
 			<key>primary</key>
 			<true/>

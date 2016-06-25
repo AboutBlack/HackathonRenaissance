@@ -28,6 +28,8 @@ PODS:
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
   - SVProgressHUD (2.0.3)
+  - TZImagePickerController (1.5.0)
+  - XHSetting (1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -38,6 +40,8 @@ DEPENDENCIES:
   - Qiniu (from `https://github.com/qiniu/objc-sdk.git`, branch `AFNetworking-3.x`)
   - SDWebImage
   - SVProgressHUD
+  - TZImagePickerController (~> 1.5.0)
+  - XHSetting
 
 EXTERNAL SOURCES:
   Qiniu:
@@ -59,5 +63,7 @@ SPEC CHECKSUMS:
   Qiniu: 4dbf1e6acb3236c4d7251046a17d08b16d21fcfe
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TZImagePickerController: d09eef6042852a9dd19224ae4e874f7430852a51
+  XHSetting: 8dc92608adcf9453f4bbb334cd10de680387537c
 
 COCOAPODS: 0.39.0

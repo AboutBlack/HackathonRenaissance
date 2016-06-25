@@ -93,6 +93,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HackathonClient/Qiniu.framework"
   install_framework "Pods-HackathonClient/SDWebImage.framework"
   install_framework "Pods-HackathonClient/SVProgressHUD.framework"
+  install_framework "Pods-HackathonClient/TZImagePickerController.framework"
+  install_framework "Pods-HackathonClient/XHSetting.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HackathonClient/AFNetworking.framework"
@@ -104,4 +106,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HackathonClient/Qiniu.framework"
   install_framework "Pods-HackathonClient/SDWebImage.framework"
   install_framework "Pods-HackathonClient/SVProgressHUD.framework"
+  install_framework "Pods-HackathonClient/TZImagePickerController.framework"
+  install_framework "Pods-HackathonClient/XHSetting.framework"
 fi
