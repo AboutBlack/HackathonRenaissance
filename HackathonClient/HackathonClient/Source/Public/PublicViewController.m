@@ -10,8 +10,9 @@
 #import "Header.h"
 #import "TZImagePickerController.h"
 #import "AFNetworking.h"
+#import "HSDatePickerViewController.h"
 
-@interface PublicViewController ()<UITextFieldDelegate,TZImagePickerControllerDelegate>
+@interface PublicViewController ()<UITextFieldDelegate,TZImagePickerControllerDelegate,HSDatePickerViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UITextField *authorTextField;
 @property (weak, nonatomic) IBOutlet UITextField *timeTextField;
@@ -19,6 +20,8 @@
 - (IBAction)uploadImageButtonClick:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *submitButtonClick;
 
+
+@property (strong,nonatomic) NSDate *selectDate;
 @property (strong,nonatomic) NSArray *imageArray;
 
 @end
@@ -29,10 +32,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = @"发布商品";
-}
-
-- (void)awakeFromNib
-{
+    
+    
     [self.titleTextField setDelegate:self];
     [self.authorTextField setDelegate:self];
     [self.timeTextField setDelegate:self];
@@ -51,7 +52,8 @@
         return YES;
     } else if (textField == self.authorTextField) {
         return NO;
-    } else if (textField == self.titleTextField) {
+    } else if (textField == self.timeTextField) {
+        [self showDatePicker];
         return NO;
     }
     return NO;
@@ -71,6 +73,8 @@
         }
     } error:nil];
     
+    __weak PublicViewController *weakSelf = self;
+    
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     NSURLSessionUploadTask *uploadTask;
     uploadTask = [manager
@@ -80,14 +84,38 @@
                   completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
                       if (error) {
                           NSLog(@"Error: %@", error);
+                          UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"警告" message:@"上传图片失败，请重新上传" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+                          [alert show];
                       } else {
-                          NSLog(@"%@ %@", response, responseObject);
                           [self.uploadImageButton setEnabled:NO];
+                          NSDictionary *dict = (NSDictionary *)responseObject;
+                          NSArray *imageURLList = [dict objectForKey:@"data"];
+                          weakSelf.imageArray = imageURLList;
                       }
                   }];
     
     [uploadTask resume];
     
     
+}
+
+
+- (void)showDatePicker
+{
+    HSDatePickerViewController *hsdpvc = [[HSDatePickerViewController alloc] init];
+    [hsdpvc setDelegate:self];
+    [self presentViewController:hsdpvc animated:YES completion:nil];
+}
+
+- (void)hsDatePickerPickedDate:(NSDate *)date
+{
+    //实例化一个NSDateFormatter对象
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    //设定时间格式,这里可以设置成自己需要的格式
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    //用[NSDate date]可以获取系统当前时间
+    NSString *currentDateStr = [dateFormatter stringFromDate:date];
+    self.timeTextField.text = currentDateStr;
+    self.selectDate = date;
 }
 @end
