@@ -12,6 +12,8 @@
     __block AgoraRtcStats *lastStat_;
 }
 
+@property (weak, nonatomic) IBOutlet UITextField *titleField;
+@property (weak, nonatomic) IBOutlet UITextField *priceField;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *speakerControlButtons;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *audioMuteControlButtons;
@@ -45,10 +47,65 @@
 
 @implementation LiveViewController
 
+#pragma mark - keyboard 
+
+- (void)dealloc {
+    
+    // 移除键盘通知
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+// 键盘改变高度通知处理
+- (void)keyboardWillChangeFrameNotification:(NSNotification *)notification {
+
+    NSDictionary *userInfo = [notification userInfo];
+    CGRect rect = [userInfo[UIKeyboardFrameBeginUserInfoKey] CGRectValue];
+    CGFloat keyboardHeight = CGRectGetHeight(rect);
+    CGFloat keyboardDuration = [userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
+    
+    // 修改下边距约束
+    self.bottomConstraint.constant = keyboardHeight;
+    
+    // 更新约束
+    [UIView animateWithDuration:keyboardDuration animations:^{
+        
+        [self.view layoutIfNeeded];
+    }];
+}
+
+// 键盘隐藏通知处理
+- (void)keyboardWillHideNotification:(NSNotification *)notification {
+    // 获得键盘动画时长
+    NSDictionary *userInfo = [notification userInfo];
+    CGFloat keyboardDuration = [userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
+    
+    // 修改为以前的约束（距下边距20）
+    self.bottomConstraint.constant = 0;
+    
+    // 更新约束
+    [UIView animateWithDuration:keyboardDuration animations:^{
+        
+        [self.view layoutIfNeeded];
+    }];
+    
+}
+
+- (void)packupKeyboard:(UITapGestureRecognizer *)sender {
+    [self.titleField resignFirstResponder];
+    [self.priceField resignFirstResponder];
+}
+
 #pragma mark - Lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    UITapGestureRecognizer *tapGR = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(packupKeyboard:)];
+    [self.videoMainView addGestureRecognizer:tapGR];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrameNotification:) name:UIKeyboardWillChangeFrameNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
     
     self.dictionary = @{AGDKeyChannelKey: AGDKeyChannelValue,
                         AGDKeyVendorKey: AGDKeyVendorValue};

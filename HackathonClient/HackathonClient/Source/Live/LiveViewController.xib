@@ -12,7 +12,9 @@
                 <outlet property="bottomConstraint" destination="SYO-DF-G1D" id="xWD-kI-quG"/>
                 <outlet property="cameraControlButton" destination="Pns-7m-riS" id="9h4-0O-dDc"/>
                 <outlet property="dataTrafficLabel" destination="DIZ-SG-gib" id="cgR-Ex-1gC"/>
+                <outlet property="priceField" destination="xO2-i9-lXp" id="kGe-wH-9CE"/>
                 <outlet property="talkTimeLabel" destination="AhX-fB-Dgi" id="ROj-2T-nya"/>
+                <outlet property="titleField" destination="rHo-g2-bKq" id="CoQ-nx-nz7"/>
                 <outlet property="videoControlView" destination="LKf-3g-eCm" id="W2d-D6-8la"/>
                 <outlet property="videoMainView" destination="RXM-j7-Juc" id="nci-Wf-wZQ"/>
                 <outlet property="view" destination="rth-dT-mJF" id="WG8-yu-Bjn"/>
@@ -318,36 +320,39 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hax-uM-Tgk">
                     <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                     <subviews>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rHo-g2-bKq">
-                            <rect key="frame" x="8" y="7" width="476" height="30"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="商品一句话描述" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rHo-g2-bKq">
+                            <rect key="frame" x="8" y="7" width="450" height="30"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yn6-LE-p7p">
-                            <rect key="frame" x="546" y="7" width="46" height="30"/>
-                            <state key="normal" title="Button"/>
+                            <rect key="frame" x="562" y="7" width="30" height="30"/>
+                            <state key="normal" title="上架"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnS-xE-OGC">
-                            <rect key="frame" x="492" y="7" width="46" height="30"/>
-                            <state key="normal" title="Button"/>
-                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="价格" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xO2-i9-lXp">
+                            <rect key="frame" x="466" y="7" width="88" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="88" id="7Of-ax-WxG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="rHo-g2-bKq" firstAttribute="centerY" secondItem="Hax-uM-Tgk" secondAttribute="centerY" id="0YQ-E8-TiW"/>
-                        <constraint firstItem="mnS-xE-OGC" firstAttribute="leading" secondItem="rHo-g2-bKq" secondAttribute="trailing" constant="8" id="7qE-pc-1ag"/>
                         <constraint firstAttribute="trailing" secondItem="Yn6-LE-p7p" secondAttribute="trailing" constant="8" id="9Yb-Vr-RXj"/>
-                        <constraint firstItem="Yn6-LE-p7p" firstAttribute="leading" secondItem="mnS-xE-OGC" secondAttribute="trailing" constant="8" id="VKN-Kf-8l3"/>
-                        <constraint firstItem="mnS-xE-OGC" firstAttribute="centerY" secondItem="Hax-uM-Tgk" secondAttribute="centerY" id="Ylg-e6-Za7"/>
                         <constraint firstAttribute="height" constant="44" id="ayz-Bt-dJW"/>
+                        <constraint firstItem="xO2-i9-lXp" firstAttribute="leading" secondItem="rHo-g2-bKq" secondAttribute="trailing" constant="8" id="cVa-pu-Ttv"/>
+                        <constraint firstItem="xO2-i9-lXp" firstAttribute="centerY" secondItem="Hax-uM-Tgk" secondAttribute="centerY" id="fOF-Uw-cQY"/>
                         <constraint firstItem="rHo-g2-bKq" firstAttribute="leading" secondItem="Hax-uM-Tgk" secondAttribute="leading" constant="8" id="fml-aC-tSL"/>
+                        <constraint firstItem="Yn6-LE-p7p" firstAttribute="leading" secondItem="xO2-i9-lXp" secondAttribute="trailing" constant="8" id="jYu-0U-Mpz"/>
                         <constraint firstItem="Yn6-LE-p7p" firstAttribute="centerY" secondItem="Hax-uM-Tgk" secondAttribute="centerY" id="xFT-Ib-xWW"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Hax-uM-Tgk" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="bottom" id="2nF-aY-Wq2"/>
                 <constraint firstAttribute="trailing" secondItem="Q3m-cJ-4Kv" secondAttribute="trailing" id="3nN-6J-OYe"/>
                 <constraint firstAttribute="centerX" secondItem="n4q-g4-Pau" secondAttribute="centerX" id="5Ri-LG-Kdm"/>
                 <constraint firstItem="c1M-qs-UGa" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="BOM-CD-CUX"/>
@@ -359,6 +364,7 @@
                 <constraint firstItem="Hax-uM-Tgk" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="WBM-ZN-O1x"/>
                 <constraint firstAttribute="trailing" secondItem="Hax-uM-Tgk" secondAttribute="trailing" id="YAT-cz-eAr"/>
                 <constraint firstAttribute="trailing" secondItem="c1M-qs-UGa" secondAttribute="trailing" id="chO-1V-nmR"/>
+                <constraint firstAttribute="bottom" secondItem="Q3m-cJ-4Kv" secondAttribute="bottom" constant="44" id="sa6-H6-4l7"/>
             </constraints>
         </view>
     </objects>
