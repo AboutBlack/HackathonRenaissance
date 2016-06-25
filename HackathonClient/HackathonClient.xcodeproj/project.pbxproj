@@ -37,6 +37,8 @@
 		C54B5BE71D1EA67D005B8273 /* JMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE41D1EA67D005B8273 /* JMessageModel.m */; };
 		C54B5BEC1D1EA697005B8273 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BEA1D1EA697005B8273 /* LoginViewController.m */; };
 		C54B5BED1D1EA697005B8273 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */; };
+		C54B5BF61D1EE1A0005B8273 /* PublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BF41D1EE1A0005B8273 /* PublicViewController.m */; };
+		C54B5BF71D1EE1A0005B8273 /* PublicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54B5BF51D1EE1A0005B8273 /* PublicViewController.xib */; };
 		C9B0C1B71D1EC3A300E2C31D /* UITableView+CYLTableViewPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1B31D1EC3A300E2C31D /* UITableView+CYLTableViewPlaceHolder.m */; };
 		C9B0C1B81D1EC3A300E2C31D /* WeChatStylePlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1B61D1EC3A300E2C31D /* WeChatStylePlaceHolder.m */; };
 		C9B0C1BB1D1ED69D00E2C31D /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1BA1D1ED69D00E2C31D /* CYLMineViewController.m */; };
@@ -92,6 +94,9 @@
 		C54B5BEA1D1EA697005B8273 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		C54B5BEE1D1EBB0E005B8273 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C54B5BF31D1EE1A0005B8273 /* PublicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicViewController.h; sourceTree = "<group>"; };
+		C54B5BF41D1EE1A0005B8273 /* PublicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicViewController.m; sourceTree = "<group>"; };
+		C54B5BF51D1EE1A0005B8273 /* PublicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublicViewController.xib; sourceTree = "<group>"; };
 		C9B0C1B01D1EC3A300E2C31D /* CYLTableViewPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTableViewPlaceHolder.h; sourceTree = "<group>"; };
 		C9B0C1B11D1EC3A300E2C31D /* CYLTableViewPlaceHolderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTableViewPlaceHolderDelegate.h; sourceTree = "<group>"; };
 		C9B0C1B21D1EC3A300E2C31D /* UITableView+CYLTableViewPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CYLTableViewPlaceHolder.h"; sourceTree = "<group>"; };
@@ -185,6 +190,7 @@
 		B16E37AA1D1E781B00877D4A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C54B5BEF1D1EE14C005B8273 /* Public */,
 				C54B5BE81D1EA697005B8273 /* Login */,
 				B16E37BA1D1E7DE200877D4A /* CYLTabBar */,
 				B16E37AB1D1E781B00877D4A /* Explore */,
@@ -287,6 +293,16 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		C54B5BEF1D1EE14C005B8273 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C54B5BF31D1EE1A0005B8273 /* PublicViewController.h */,
+				C54B5BF41D1EE1A0005B8273 /* PublicViewController.m */,
+				C54B5BF51D1EE1A0005B8273 /* PublicViewController.xib */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		C9B0C1AF1D1EC3A300E2C31D /* CYLTableViewPlaceHolder */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +400,7 @@
 				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
 				B16E37E21D1EAB1600877D4A /* WatchViewController.xib in Resources */,
+				C54B5BF71D1EE1A0005B8273 /* PublicViewController.xib in Resources */,
 				C9B0C1BD1D1EDA3900E2C31D /* Settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +484,7 @@
 				C54B5BE61D1EA67D005B8273 /* JMessageCell.m in Sources */,
 				B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */,
 				B16E37E11D1EAB1600877D4A /* WatchViewController.m in Sources */,
+				C54B5BF61D1EE1A0005B8273 /* PublicViewController.m in Sources */,
 				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
 				C9B0C1BB1D1ED69D00E2C31D /* CYLMineViewController.m in Sources */,
 				C9B0C1B71D1EC3A300E2C31D /* UITableView+CYLTableViewPlaceHolder.m in Sources */,
