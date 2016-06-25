@@ -7,7 +7,24 @@
 //
 
 #import "ProfileViewController.h"
+#import "WatchViewController.h"
 
 @implementation ProfileViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(watch)];
+    
+    self.navigationItem.rightBarButtonItem = btnItem;
+}
+
+- (void)watch {
+    WatchViewController *watchVC = [[WatchViewController alloc] init];
+    [self presentViewController:watchVC animated:true completion:^{
+        
+    }];
+}
+                                
 
 @end
