@@ -87,7 +87,7 @@
 
 - (IBAction)didClickBackView:(id)sender
 {
-    [self showAlertLabelWithString:NSLocalizedString(@"exiting", nil)];
+    [self showAlertLabelWithString:NSLocalizedString(@"正在退出……", nil)];
     __weak typeof(self) weakSelf = self;
     [self.agoraKit leaveChannel:^(AgoraRtcStats *stat) {
         // Myself leave status
@@ -182,7 +182,7 @@
 
 - (void)joinChannel
 {
-    [self showAlertLabelWithString:NSLocalizedString(@"wait_attendees", nil)];
+    [self showAlertLabelWithString:NSLocalizedString(@"没人看你直播哦", nil)];
     __weak typeof(self) weakSelf = self;
     [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:0 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
