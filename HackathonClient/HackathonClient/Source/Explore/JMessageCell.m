@@ -33,6 +33,9 @@
 
 @property (nonatomic, strong) NSIndexPath *indexPath;
 
+
+@property (nonatomic,strong) UIScrollView *scrollView;
+
 @end
 
 @implementation JMessageCell
@@ -103,6 +106,21 @@
             make.left.mas_equalTo(self.descLabel);
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
         }];
+        
+        
+        self.scrollView = [UIScrollView new];
+        self.scrollView.backgroundColor = [UIColor redColor];
+        [self.contentView addSubview:self.scrollView];
+        
+        [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+            //设置边界约束
+            make.left.mas_equalTo(self.jggView.mas_left).offset(0);
+            make.right.mas_equalTo(self.jggView.mas_right).offset(0);
+            make.bottom.mas_equalTo(self.jggView.mas_bottom).offset(0);
+            make.height.equalTo(@80);
+        }];
+//
+        
         self.hyb_lastViewInCell = self.jggView;
         self.hyb_bottomOffsetToCell = 10.0;
         
@@ -158,10 +176,27 @@
         make.size.mas_equalTo(CGSizeMake(jjg_width, jjg_height));
     }];
     
-   
+//    [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        //设置边界约束
+//        make.edges.equalTo(self.jggView).with.insets(UIEdgeInsetsMake(5,5,5,5));
+//    }];
     
+//    [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        //设置边界约束
+//        make.left.mas_equalTo(self.jggView.mas_left).offset(0);
+//        make.right.mas_equalTo(self.jggView.mas_right).offset(0);
+//        make.bottom.mas_equalTo(self.jggView.mas_bottom).offset(0);
+//        make.height.equalTo(@80);
+//        make.width.mas_equalTo(@(jjg_width));
+//        
+//    }];
 
+    
+    
+   
 }
+
+
 
 
 

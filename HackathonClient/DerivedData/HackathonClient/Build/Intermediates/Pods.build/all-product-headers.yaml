@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -34,7 +34,7 @@
         {
           'type': 'file',
           'name': "AFNetworking-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-Swift.h"
         },
         {
           'type': 'file',
@@ -110,18 +110,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/AFNetworking.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/CYLTabBarController.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -136,7 +136,7 @@
         {
           'type': 'file',
           'name': "CYLTabBarController-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Headers/CYLTabBarController-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/CYLTabBarController.framework/Headers/CYLTabBarController-Swift.h"
         },
         {
           'type': 'file',
@@ -157,23 +157,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/CYLTabBarController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/CYLTabBarController.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/CYLTabBarController.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HappyDNS.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "HappyDNS-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Headers/HappyDNS-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HappyDNS.framework/Headers/HappyDNS-Swift.h"
         },
         {
           'type': 'file',
@@ -264,23 +264,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/HappyDNS.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/HappyDNS.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/HappyDNS.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/MJRefresh.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MJRefresh-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers/MJRefresh-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/MJRefresh.framework/Headers/MJRefresh-Swift.h"
         },
         {
           'type': 'file',
@@ -391,18 +391,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/MJRefresh.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/MJRefresh.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/MJRefresh.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Mantle.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -437,7 +437,7 @@
         {
           'type': 'file',
           'name': "Mantle-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/Mantle-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Mantle.framework/Headers/Mantle-Swift.h"
         },
         {
           'type': 'file',
@@ -493,18 +493,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Mantle.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Mantle.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/Mantle.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/PrivateHeaders",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Mantle.framework/PrivateHeaders",
       'contents': [
         {
           'type': 'file',
@@ -530,7 +530,7 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Masonry.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -575,7 +575,7 @@
         {
           'type': 'file',
           'name': "Masonry-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Headers/Masonry-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Masonry.framework/Headers/Masonry-Swift.h"
         },
         {
           'type': 'file',
@@ -621,18 +621,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Masonry.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Masonry.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/Masonry.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Pods_HackathonClient.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -642,24 +642,24 @@
         {
           'type': 'file',
           'name': "Pods_HackathonClient-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Headers/Pods_HackathonClient-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Pods_HackathonClient.framework/Headers/Pods_HackathonClient-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Pods_HackathonClient.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-HackathonClient.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-HackathonClient.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Qiniu.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -789,7 +789,7 @@
         {
           'type': 'file',
           'name': "Qiniu-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Headers/Qiniu-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Qiniu.framework/Headers/Qiniu-Swift.h"
         },
         {
           'type': 'file',
@@ -805,18 +805,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/Qiniu.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Qiniu.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/Qiniu.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -831,7 +831,7 @@
         {
           'type': 'file',
           'name': "SDWebImage-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImage-Swift.h"
         },
         {
           'type': 'file',
@@ -907,18 +907,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SVProgressHUD.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -933,7 +933,7 @@
         {
           'type': 'file',
           'name': "SVProgressHUD-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
         },
         {
           'type': 'file',
@@ -954,18 +954,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SVProgressHUD.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/SVProgressHUD.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/TZImagePickerController.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -985,7 +985,7 @@
         {
           'type': 'file',
           'name': "TZImagePickerController-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers/TZImagePickerController-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/TZImagePickerController.framework/Headers/TZImagePickerController-Swift.h"
         },
         {
           'type': 'file',
@@ -1026,18 +1026,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/TZImagePickerController.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/TZImagePickerController.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/TZImagePickerController.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -1052,7 +1052,7 @@
         {
           'type': 'file',
           'name': "XHSetting-Swift.h",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers/XHSetting-Swift.h"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers/XHSetting-Swift.h"
         },
         {
           'type': 'file',
@@ -1088,12 +1088,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Modules",
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/XHSetting.build/module.modulemap"
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphoneos/XHSetting.build/module.modulemap"
         }
       ]
     }

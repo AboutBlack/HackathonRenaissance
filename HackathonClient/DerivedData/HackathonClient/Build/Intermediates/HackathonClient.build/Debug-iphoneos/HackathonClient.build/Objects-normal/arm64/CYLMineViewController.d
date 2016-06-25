@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Profile/CYLMineViewController.m \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Profile/CYLMineViewController.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers/XHSetting.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers/XHTableViewBlocks.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers/XHTableViewCell.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/XHSetting.framework/Headers/XHTableViewSection.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/AppDelegate.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIView+WebCacheOperation.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+WebCache.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+MultiFormat.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+GIF.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/UIButton+WebCache.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImagePrefetcher.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageManager.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageOperation.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloader.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDecoder.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageCompat.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDImageCache.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/NSData+ImageContentType.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImage-umbrella.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphoneos/SDWebImage.framework/Modules/module.modulemap

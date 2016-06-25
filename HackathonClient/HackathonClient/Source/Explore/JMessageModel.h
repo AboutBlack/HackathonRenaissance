@@ -33,5 +33,7 @@
 
 @property(nonatomic,strong)NSMutableArray *messageBigPics;
 
+@property(nonatomic,strong)NSArray<NSString *> *mail;
+
 
 @end

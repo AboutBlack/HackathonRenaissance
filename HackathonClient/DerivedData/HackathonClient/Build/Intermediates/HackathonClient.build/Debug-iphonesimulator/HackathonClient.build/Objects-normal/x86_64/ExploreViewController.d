@@ -37,6 +37,7 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/HYBMasonryAutoCellHeight/UITableViewCell+HYBMasonryAutoCellHeight.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/HYBMasonryAutoCellHeight/UITableView+HYBCacheHeight.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Public/PublicViewController.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers/MJRefresh.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers/UIScrollView+MJRefresh.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers/MJRefreshConst.h \
@@ -67,4 +68,7 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/CYLTableViewPlaceHolder/CYLTableViewPlaceHolder.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/CYLTableViewPlaceHolder/UITableView+CYLTableViewPlaceHolder.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/CYLTableViewPlaceHolder/CYLTableViewPlaceHolderDelegate.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/CYLTableViewPlaceHolder/WeChatStyle/WeChatStylePlaceHolder.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/CYLTableViewPlaceHolder/WeChatStyle/WeChatStylePlaceHolder.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/WatchViewController.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/View/AGDChatCell.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Live/Agora/AgoraRtcEngineKit.framework/Headers/AgoraRtcEngineKit.h

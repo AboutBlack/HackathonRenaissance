@@ -1,0 +1,6 @@
+framework module Pods_HackathonClient {
+  umbrella header "Pods-HackathonClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
