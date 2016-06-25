@@ -3,4 +3,10 @@ use_frameworks!
 
 target 'HackathonClient' do
 
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Mantle'
+pod 'Masonry'
+pod 'SVProgressHUD'
+
 end
