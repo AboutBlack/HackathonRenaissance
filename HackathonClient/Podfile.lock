@@ -14,12 +14,13 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CYLTabBarController (1.5.0)
+  - CYLTabBarController (1.5.4)
   - HappyDNS (0.3.5)
   - Mantle (2.0.7):
     - Mantle/extobjc (= 2.0.7)
   - Mantle/extobjc (2.0.7)
   - Masonry (1.0.1)
+  - MJRefresh (3.1.9)
   - Qiniu (7.0.20):
     - AFNetworking (~> 3)
     - HappyDNS (~> 0.3)
@@ -33,6 +34,7 @@ DEPENDENCIES:
   - CYLTabBarController
   - Mantle
   - Masonry
+  - MJRefresh
   - Qiniu (from `https://github.com/qiniu/objc-sdk.git`, branch `AFNetworking-3.x`)
   - SDWebImage
   - SVProgressHUD
@@ -49,14 +51,13 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CYLTabBarController: 239530a5752c7c5ed997948b32fc5d9c270f2774
+  CYLTabBarController: 7c2985a03fa6bde1d5a38d32e021f31ae46fff7c
   HappyDNS: 6f8cf46fa7c0b98a6591fe8ecb2e08d9907a6e8b
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
   Qiniu: 4dbf1e6acb3236c4d7251046a17d08b16d21fcfe
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: dcecf5f3ec6ec447c73b19bf265eab2355ca8092
-
-COCOAPODS: 1.0.1
+COCOAPODS: 0.39.0
