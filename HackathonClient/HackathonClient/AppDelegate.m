@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 #import "CYLTabBarController.h"
 
 #import "CYLTabBarControllerConfig.h"
