@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CYLTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>226672E8B11D975D047A0DE20887041E</key>
+		<key>380C0DBCE528048751B269C67A0696B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A74B85D05335AC75E1A35409BC2F846B</key>
+		<key>830B89C5E166DB7A6B04678F8124CFEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E16528405B0910DD24BCC3A5B766E0CB</key>
+		<key>B29314372246DCDB2C4FB21659ECD375</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEC32BDE675EC1367C7DEF46505816C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

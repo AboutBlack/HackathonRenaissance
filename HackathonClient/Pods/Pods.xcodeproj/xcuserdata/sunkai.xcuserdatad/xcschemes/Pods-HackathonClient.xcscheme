@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BAA0D848D7CEC9C022C76F8B'
+               BlueprintIdentifier = 'EEC85ADBFF5CAE2654823A1B'
                BlueprintName = 'Pods-HackathonClient'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_HackathonClient.framework'>

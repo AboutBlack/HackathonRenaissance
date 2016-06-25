@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HackathonClient/AFNetworking.framework"
+  install_framework "Pods-HackathonClient/CYLTabBarController.framework"
   install_framework "Pods-HackathonClient/Mantle.framework"
   install_framework "Pods-HackathonClient/Masonry.framework"
   install_framework "Pods-HackathonClient/SDWebImage.framework"
@@ -92,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HackathonClient/AFNetworking.framework"
+  install_framework "Pods-HackathonClient/CYLTabBarController.framework"
   install_framework "Pods-HackathonClient/Mantle.framework"
   install_framework "Pods-HackathonClient/Masonry.framework"
   install_framework "Pods-HackathonClient/SDWebImage.framework"

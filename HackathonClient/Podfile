@@ -8,5 +8,6 @@ pod 'SDWebImage'
 pod 'Mantle'
 pod 'Masonry'
 pod 'SVProgressHUD'
+pod 'CYLTabBarController'
 
 end
