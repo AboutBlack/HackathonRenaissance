@@ -10,7 +10,7 @@
 #import "AFNetworking.h"
 #import "Header.h"
 
-@interface LoginViewController ()
+@interface LoginViewController ()<UITextFieldDelegate>
 - (IBAction)loginButtonClick:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *userName;
 @property (weak, nonatomic) IBOutlet UITextField *password;
@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.userName setDelegate:self];
+    [self.password setDelegate:self];
 }
 
 - (IBAction)loginButtonClick:(UIButton *)sender {
@@ -41,18 +44,26 @@
     }
     
     NSDictionary *dict = @{@"user":userName,@"pass":password};
+    NSLog(@"dict: %@",dict);
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
     __weak LoginViewController *weakSelf = self;
     [manager POST:@"http://hack2016.applinzi.com/Home/Index/Login" parameters:dict progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
         // 成功;
-        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
-        [[NSUserDefaults standardUserDefaults]setObject:userName forKey:kUser_Name];
-        [[NSUserDefaults standardUserDefaults]synchronize];
-        
-        if (weakSelf.block) {
-            weakSelf.block();
+        NSDictionary *dict = (NSDictionary *)responseObject;
+        NSString *status = dict[@"status"];
+        if (status.integerValue == 0) {
+            [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
+            [[NSUserDefaults standardUserDefaults]setObject:userName forKey:kUser_Name];
+            [[NSUserDefaults standardUserDefaults]synchronize];
+            
+            if (weakSelf.block) {
+                weakSelf.block();
+            }
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"警告" message:@"登录失败" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+            [alert show];
         }
         
     } failure:^(NSURLSessionTask *operation, NSError *error) {
@@ -62,5 +73,24 @@
 }
 - (IBAction)forgetPasswordClick:(id)sender {
     
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    
+    [UIView animateWithDuration:0.3f animations:^{
+        CGAffineTransform transform = CGAffineTransformMakeTranslation(0, -100);
+        [self.view setTransform:transform];
+    }];
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    if (textField == self.password) {
+        [UIView animateWithDuration:0.3f animations:^{
+            CGAffineTransform transform = CGAffineTransformIdentity;
+            [self.view setTransform:transform];
+        }];
+    }
 }
 @end
