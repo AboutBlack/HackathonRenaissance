@@ -12,6 +12,10 @@
 
 @interface WatchViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, AgoraRtcEngineDelegate>
 
+@property (nonatomic, assign) NSUInteger userid;
+@property (nonatomic, assign) NSUInteger roomid;
+@property (nonatomic, assign) NSUInteger hostid;
+
 @property(nonatomic,retain) NSDictionary *dictionary;
 
 @property (assign, nonatomic) AGDChatType chatType;
