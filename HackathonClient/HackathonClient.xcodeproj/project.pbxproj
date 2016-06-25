@@ -17,11 +17,6 @@
 		B16E37B61D1E785800877D4A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37B51D1E785800877D4A /* ProfileViewController.m */; };
 		B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37BC1D1E7DE200877D4A /* CYLPlusButtonSubclass.m */; };
 		B16E37C01D1E7DE200877D4A /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37BE1D1E7DE200877D4A /* CYLTabBarControllerConfig.m */; };
-		C9B0C1911D1E83AC00E2C31D /* JMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1901D1E83AC00E2C31D /* JMessageCell.m */; };
-		C9B0C1941D1E83C700E2C31D /* JMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1931D1E83C700E2C31D /* JMessageModel.m */; };
-		C9B0C1971D1E862F00E2C31D /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1961D1E862F00E2C31D /* JGridView.m */; };
-		C9B0C19D1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C19A1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m */; };
-		C9B0C19E1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		B16E37C51D1E88EC00877D4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C41D1E88EC00877D4A /* libc++.tbd */; };
 		B16E37C71D1E88F400877D4A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C61D1E88F400877D4A /* CoreMotion.framework */; };
 		B16E37C91D1E88FC00877D4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C81D1E88FC00877D4A /* SystemConfiguration.framework */; };
@@ -55,16 +50,6 @@
 		B16E37BC1D1E7DE200877D4A /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
 		B16E37BD1D1E7DE200877D4A /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
 		B16E37BE1D1E7DE200877D4A /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
-		C9B0C18F1D1E83AC00E2C31D /* JMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMessageCell.h; sourceTree = "<group>"; };
-		C9B0C1901D1E83AC00E2C31D /* JMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMessageCell.m; sourceTree = "<group>"; };
-		C9B0C1921D1E83C700E2C31D /* JMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMessageModel.h; sourceTree = "<group>"; };
-		C9B0C1931D1E83C700E2C31D /* JMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMessageModel.m; sourceTree = "<group>"; };
-		C9B0C1951D1E862F00E2C31D /* JGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGridView.h; sourceTree = "<group>"; };
-		C9B0C1961D1E862F00E2C31D /* JGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGridView.m; sourceTree = "<group>"; };
-		C9B0C1991D1E95A700E2C31D /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
-		C9B0C19A1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
-		C9B0C19B1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
-		C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
 		B16E37C41D1E88EC00877D4A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B16E37C61D1E88F400877D4A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		B16E37C81D1E88FC00877D4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -171,15 +156,8 @@
 		B16E37AB1D1E781B00877D4A /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				C9B0C1981D1E95A700E2C31D /* HYBMasonryAutoCellHeight */,
 				B16E37AE1D1E783300877D4A /* ExploreViewController.h */,
 				B16E37AF1D1E783300877D4A /* ExploreViewController.m */,
-				C9B0C18F1D1E83AC00E2C31D /* JMessageCell.h */,
-				C9B0C1901D1E83AC00E2C31D /* JMessageCell.m */,
-				C9B0C1921D1E83C700E2C31D /* JMessageModel.h */,
-				C9B0C1931D1E83C700E2C31D /* JMessageModel.m */,
-				C9B0C1951D1E862F00E2C31D /* JGridView.h */,
-				C9B0C1961D1E862F00E2C31D /* JGridView.m */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -216,15 +194,6 @@
 			path = CYLTabBar;
 			sourceTree = "<group>";
 		};
-		C9B0C1981D1E95A700E2C31D /* HYBMasonryAutoCellHeight */ = {
-			isa = PBXGroup;
-			children = (
-				C9B0C1991D1E95A700E2C31D /* UITableView+HYBCacheHeight.h */,
-				C9B0C19A1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m */,
-				C9B0C19B1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
-				C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
-			);
-			path = HYBMasonryAutoCellHeight;
 		B16E37C11D1E88B900877D4A /* Agora */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,10 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B0C1941D1E83C700E2C31D /* JMessageModel.m in Sources */,
-				C9B0C1971D1E862F00E2C31D /* JGridView.m in Sources */,
-				C9B0C1911D1E83AC00E2C31D /* JMessageCell.m in Sources */,
-				C9B0C19E1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				B16E37C01D1E7DE200877D4A /* CYLTabBarControllerConfig.m in Sources */,
 				B16E37B31D1E784A00877D4A /* LiveViewController.m in Sources */,
 				B16E37B01D1E783300877D4A /* ExploreViewController.m in Sources */,
@@ -383,7 +348,6 @@
 				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
 				B16E37981D1E51E500877D4A /* AppDelegate.m in Sources */,
 				B16E37B61D1E785800877D4A /* ProfileViewController.m in Sources */,
-				C9B0C19D1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m in Sources */,
 				B16E37951D1E51E500877D4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
