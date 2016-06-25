@@ -70,7 +70,7 @@
     CYLPlusButtonSubclass *button = [[CYLPlusButtonSubclass alloc] init];
     UIImage *buttonImage = [UIImage imageNamed:@"post_normal"];
     [button setImage:buttonImage forState:UIControlStateNormal];
-    [button setTitle:@"发布" forState:UIControlStateNormal];
+    [button setTitle:@"直播" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     
     [button setTitle:@"选中" forState:UIControlStateSelected];
