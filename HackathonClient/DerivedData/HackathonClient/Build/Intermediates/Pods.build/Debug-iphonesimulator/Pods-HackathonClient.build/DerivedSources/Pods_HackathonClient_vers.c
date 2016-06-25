@@ -1,1 +1,0 @@
- const unsigned char Pods_HackathonClientVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_HackathonClient  PROJECT:Pods-1" "\n"; const double Pods_HackathonClientVersionNumber __attribute__ ((used)) = (double)1.;

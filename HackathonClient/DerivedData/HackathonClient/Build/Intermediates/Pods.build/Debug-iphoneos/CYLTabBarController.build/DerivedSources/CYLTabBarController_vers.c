@@ -1,1 +1,0 @@
- const unsigned char CYLTabBarControllerVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:CYLTabBarController  PROJECT:Pods-1" "\n"; const double CYLTabBarControllerVersionNumber __attribute__ ((used)) = (double)1.;

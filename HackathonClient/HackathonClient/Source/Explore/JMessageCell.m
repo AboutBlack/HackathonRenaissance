@@ -14,6 +14,52 @@
 
 
 
+
+
+@interface JCardView : UIView
+
+@property (nonatomic,strong) UIImageView *imageView;
+
+@property (nonatomic,strong) UILabel     *titleLabel;
+
+@property (nonatomic,strong) UILabel     *priceLable;
+
+
+@end
+
+@implementation JCardView
+
+-(instancetype)initWithFrame:(CGRect)frame{
+    
+    self = [super initWithFrame:frame];
+    
+    if (self) {
+        
+        _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(8, 5, 30, 30)];
+        _imageView.backgroundColor = [UIColor cyanColor];
+        
+        [self addSubview:_imageView];
+
+        _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_imageView.frame), 50, 15)];
+        _titleLabel.font = [UIFont systemFontOfSize:8.0f];
+        _titleLabel.textAlignment = NSTextAlignmentCenter;
+        
+        [self addSubview:_titleLabel];
+        
+        _priceLable = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_titleLabel.frame), 50, 10)];
+        _priceLable.textAlignment = NSTextAlignmentCenter;
+        _priceLable.font = [UIFont systemFontOfSize:10.0f];
+
+
+        [self addSubview:_priceLable];
+    }
+    
+    return self;
+}
+
+@end
+
+
 #define kAvatar_Size 40
 
 #define kGAP 10
@@ -35,6 +81,10 @@
 
 
 @property (nonatomic,strong) UIScrollView *scrollView;
+
+@property (nonatomic,strong) UIImageView *bgImageView;
+
+@property (nonatomic,strong) UIView      *container;
 
 @end
 
@@ -100,28 +150,50 @@
 
         
         
-        self.jggView = [JGridView new];
-        [self.contentView addSubview:self.jggView];
-        [self.jggView mas_makeConstraints:^(MASConstraintMaker *make) {
+        self.bgImageView = [UIImageView new];
+        [self.contentView addSubview:self.bgImageView];
+        [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.descLabel);
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
+            make.height.mas_equalTo(180);
+            make.width.mas_equalTo(230);
         }];
         
-        
+        //([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2);
         self.scrollView = [UIScrollView new];
-        self.scrollView.backgroundColor = [UIColor redColor];
+        self.scrollView.backgroundColor = [UIColor grayColor];
+        self.scrollView.alpha = 0.8;
         [self.contentView addSubview:self.scrollView];
         
         [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
             //设置边界约束
-            make.left.mas_equalTo(self.jggView.mas_left).offset(0);
-            make.right.mas_equalTo(self.jggView.mas_right).offset(0);
-            make.bottom.mas_equalTo(self.jggView.mas_bottom).offset(0);
-            make.height.equalTo(@80);
+            make.left.mas_equalTo(self.bgImageView.mas_left).offset(0);
+            make.width.mas_equalTo(self.bgImageView.mas_width);
+            make.height.equalTo(@60);
+            make.bottom.mas_equalTo(self.bgImageView.mas_bottom).offset(0);
+            
         }];
+        
+        //创建ScrollView子视图容器视图
+        self.container = [[UIView alloc] init];
+         self.container.backgroundColor = [UIColor greenColor];
+        [self.scrollView addSubview: self.container];
+        //
+        //    //添加container约束
+        [ self.container mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.scrollView);//边界紧贴ScrollView边界
+            //make.width.equalTo(self.scrollView);//宽度和ScrollView相等
+        }];
+        
+        
+        
+       
+        
+        
+
 //
         
-        self.hyb_lastViewInCell = self.jggView;
+        self.hyb_lastViewInCell = self.bgImageView;
         self.hyb_bottomOffsetToCell = 10.0;
         
        
@@ -144,7 +216,7 @@
     NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:14.0],NSParagraphStyleAttributeName:muStyle};
   //  CGFloat h = [self.descLabel.text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - kGAP-kAvatar_Size - 2*kGAP, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size.height;
     
-    
+    [self.bgImageView sd_setImageWithURL:[NSURL URLWithString:model.live_img] placeholderImage:[UIImage imageNamed:@"placeholder"]];
     
     CGFloat jjg_height = 0.0;
     CGFloat jjg_width = 0.0;
@@ -166,15 +238,15 @@
         jjg_height = 3*([JGridView imageHeight]+kJGG_GAP)-kJGG_GAP;
         jjg_width  = 3*([JGridView imageWidth]+kJGG_GAP)-kJGG_GAP;
     }
-    [self.jggView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    [self.jggView JGridView:self.jggView DataSource:model.messageBigPics completeBlock:^(NSInteger index, NSArray *dataSource) {
-        self.tapBlock(index,dataSource);
-    }];
-    [self.jggView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.descLabel);
-        make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kJGG_GAP);
-        make.size.mas_equalTo(CGSizeMake(jjg_width, jjg_height));
-    }];
+//    [self.jggView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+//    [self.jggView JGridView:self.jggView DataSource:model.messageBigPics completeBlock:^(NSInteger index, NSArray *dataSource) {
+//        self.tapBlock(index,dataSource);
+//    }];
+//    [self.jggView mas_updateConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(self.descLabel);
+//        make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kJGG_GAP);
+//        make.size.mas_equalTo(CGSizeMake(jjg_width, jjg_height));
+//    }];
     
 //    [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
 //        //设置边界约束
@@ -186,11 +258,91 @@
 //        make.left.mas_equalTo(self.jggView.mas_left).offset(0);
 //        make.right.mas_equalTo(self.jggView.mas_right).offset(0);
 //        make.bottom.mas_equalTo(self.jggView.mas_bottom).offset(0);
-//        make.height.equalTo(@80);
+//        make.height.equalTo(@60);
 //        make.width.mas_equalTo(@(jjg_width));
 //        
 //    }];
+    
+    [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.descLabel);
+        make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
+        make.height.mas_equalTo(180);
+        make.width.mas_equalTo(230);
+    }];
+    
+    //创建ScrollView子视图容器视图
+    
+//    
+//    //添加container约束
+    [self.container mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.scrollView);//边界紧贴ScrollView边界
+//        make.width.equalTo(self.scrollView);//宽度和ScrollView相等
+    }];
 
+    
+    NSInteger count = [model.mail count];
+    
+    //向container添加多个View
+    JCardView *lastView = nil;
+    for(int i = 0;i <count;++i ){
+        //创建一个View
+        JCardView *subView = [[JCardView alloc] initWithFrame:CGRectMake(0, 0, 50, 80)];
+        
+        NSString *url = [((NSDictionary*)[model.mail objectAtIndex:i]) objectForKey:@"img"];
+    [subView.imageView sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage imageNamed:@"placeholder"]];
+        
+        NSString *price = [((NSDictionary*)[model.mail objectAtIndex:i]) objectForKey:@"price"];
+        
+        NSString *title = [((NSDictionary*)[model.mail objectAtIndex:i]) objectForKey:@"title"];
+        
+        subView.titleLabel.text = title;
+        subView.priceLable.text = [NSString stringWithFormat:@"%@元",price];
+
+        
+        [self.container addSubview:subView];
+        //颜色随机
+//        subView.backgroundColor = [UIColor colorWithRed:( arc4random() % 256 / 256.0 )
+//                                                  green:( arc4random() % 256 / 256.0 )
+//                                                   blue:( arc4random() % 256 / 256.0 )
+                                                 // alpha:1];
+        
+        
+        
+        
+        CGRect frame = subView.frame;
+        
+        if ( lastView ) {
+            frame.origin.x = CGRectGetMaxX(lastView.frame)+6;
+        
+        } else {
+            frame.origin.x = 0;
+        
+        
+        }
+        
+        subView.frame = frame;
+        
+        
+        //向subView添加约束
+//        [subView mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.centerY.equalTo(self.container.mas_centerY).offset(0);//左container紧贴
+//            make.height.mas_equalTo(70);//高度随i递增
+//            make.width.mas_equalTo(50);
+//            //判断是否有前一个子View
+//            if ( lastView ) {
+//                make.left.mas_equalTo(lastView.mas_right).offset(6);
+//            } else {
+//                make.left.mas_equalTo(self.container.mas_left);
+//            }
+//        }];
+        //保存前一个View
+        lastView = subView;
+    }
+    //添加container的最后一个约束
+//    [self.container mas_updateConstraints:^(MASConstraintMaker *make) {
+//        //container的下边界和最后一个View的下边界紧贴
+//        make.right.equalTo(lastView.mas_right);
+//    }];
     
     
    
