@@ -22,6 +22,17 @@
 		C9B0C1971D1E862F00E2C31D /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C1961D1E862F00E2C31D /* JGridView.m */; };
 		C9B0C19D1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C19A1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m */; };
 		C9B0C19E1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		B16E37C51D1E88EC00877D4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C41D1E88EC00877D4A /* libc++.tbd */; };
+		B16E37C71D1E88F400877D4A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C61D1E88F400877D4A /* CoreMotion.framework */; };
+		B16E37C91D1E88FC00877D4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37C81D1E88FC00877D4A /* SystemConfiguration.framework */; };
+		B16E37CB1D1E890300877D4A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37CA1D1E890300877D4A /* CoreTelephony.framework */; };
+		B16E37CD1D1E890B00877D4A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37CC1D1E890B00877D4A /* CoreMedia.framework */; };
+		B16E37CF1D1E891300877D4A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37CE1D1E891300877D4A /* AVFoundation.framework */; };
+		B16E37D11D1E891B00877D4A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D01D1E891B00877D4A /* VideoToolbox.framework */; };
+		B16E37D31D1E892300877D4A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D21D1E892300877D4A /* AudioToolbox.framework */; };
+		B16E37D51D1E8B1300877D4A /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */; };
+		B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37D61D1E97D300877D4A /* LiveViewController.xib */; };
+		B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +65,18 @@
 		C9B0C19A1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		C9B0C19B1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
 		C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		B16E37C41D1E88EC00877D4A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B16E37C61D1E88F400877D4A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B16E37C81D1E88FC00877D4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B16E37CA1D1E890300877D4A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B16E37CC1D1E890B00877D4A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B16E37CE1D1E891300877D4A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B16E37D01D1E891B00877D4A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B16E37D21D1E892300877D4A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		B16E37D61D1E97D300877D4A /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDChatCell.h; sourceTree = "<group>"; };
+		B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDChatCell.m; sourceTree = "<group>"; };
 		EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16E37D31D1E892300877D4A /* AudioToolbox.framework in Frameworks */,
+				B16E37D11D1E891B00877D4A /* VideoToolbox.framework in Frameworks */,
+				B16E37D51D1E8B1300877D4A /* AgoraRtcEngineKit.framework in Frameworks */,
+				B16E37CF1D1E891300877D4A /* AVFoundation.framework in Frameworks */,
+				B16E37CD1D1E890B00877D4A /* CoreMedia.framework in Frameworks */,
+				B16E37CB1D1E890300877D4A /* CoreTelephony.framework in Frameworks */,
+				B16E37C91D1E88FC00877D4A /* SystemConfiguration.framework in Frameworks */,
+				B16E37C71D1E88F400877D4A /* CoreMotion.framework in Frameworks */,
+				B16E37C51D1E88EC00877D4A /* libc++.tbd in Frameworks */,
 				876E2173AD527B8578DC0D8A /* Pods_HackathonClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +104,14 @@
 		6E0FE51823BF856E00DE4316 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B16E37D21D1E892300877D4A /* AudioToolbox.framework */,
+				B16E37D01D1E891B00877D4A /* VideoToolbox.framework */,
+				B16E37CE1D1E891300877D4A /* AVFoundation.framework */,
+				B16E37CC1D1E890B00877D4A /* CoreMedia.framework */,
+				B16E37CA1D1E890300877D4A /* CoreTelephony.framework */,
+				B16E37C81D1E88FC00877D4A /* SystemConfiguration.framework */,
+				B16E37C61D1E88F400877D4A /* CoreMotion.framework */,
+				B16E37C41D1E88EC00877D4A /* libc++.tbd */,
 				734B80E9C9EA89D7D7822264 /* Pods_HackathonClient.framework */,
 			);
 			name = Frameworks;
@@ -147,8 +187,11 @@
 		B16E37AC1D1E781B00877D4A /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				B16E37D91D1E9AED00877D4A /* View */,
+				B16E37C11D1E88B900877D4A /* Agora */,
 				B16E37B11D1E784A00877D4A /* LiveViewController.h */,
 				B16E37B21D1E784A00877D4A /* LiveViewController.m */,
+				B16E37D61D1E97D300877D4A /* LiveViewController.xib */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -182,6 +225,21 @@
 				C9B0C19C1D1E95A700E2C31D /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
 			);
 			path = HYBMasonryAutoCellHeight;
+		B16E37C11D1E88B900877D4A /* Agora */ = {
+			isa = PBXGroup;
+			children = (
+				B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */,
+			);
+			path = Agora;
+			sourceTree = "<group>";
+		};
+		B16E37D91D1E9AED00877D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */,
+				B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D1BB84EECCBF4F8C22A74A92 /* Pods */ = {
@@ -200,12 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B16E37A71D1E51E500877D4A /* Build configuration list for PBXNativeTarget "HackathonClient" */;
 			buildPhases = (
-				02B59FB5DF3610EE7F49D754 /* Check Pods Manifest.lock */,
+				02B59FB5DF3610EE7F49D754 /* [CP] Check Pods Manifest.lock */,
 				B16E378C1D1E51E500877D4A /* Sources */,
 				B16E378D1D1E51E500877D4A /* Frameworks */,
 				B16E378E1D1E51E500877D4A /* Resources */,
-				83872EEA21439566ACC7B03C /* Embed Pods Frameworks */,
-				8363AE9BDA0CC1DA65F33EE7 /* Copy Pods Resources */,
+				83872EEA21439566ACC7B03C /* [CP] Embed Pods Frameworks */,
+				8363AE9BDA0CC1DA65F33EE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16E37A31D1E51E500877D4A /* LaunchScreen.storyboard in Resources */,
+				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,14 +320,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02B59FB5DF3610EE7F49D754 /* Check Pods Manifest.lock */ = {
+		02B59FB5DF3610EE7F49D754 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,14 +335,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8363AE9BDA0CC1DA65F33EE7 /* Copy Pods Resources */ = {
+		8363AE9BDA0CC1DA65F33EE7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +350,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83872EEA21439566ACC7B03C /* Embed Pods Frameworks */ = {
+		83872EEA21439566ACC7B03C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +380,7 @@
 				B16E37B31D1E784A00877D4A /* LiveViewController.m in Sources */,
 				B16E37B01D1E783300877D4A /* ExploreViewController.m in Sources */,
 				B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */,
+				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
 				B16E37981D1E51E500877D4A /* AppDelegate.m in Sources */,
 				B16E37B61D1E785800877D4A /* ProfileViewController.m in Sources */,
 				C9B0C19D1D1E95A700E2C31D /* UITableView+HYBCacheHeight.m in Sources */,
@@ -429,6 +489,10 @@
 			baseConfigurationReference = EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackathonClient/Source/Live/Agora",
+				);
 				INFOPLIST_FILE = HackathonClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,6 +506,10 @@
 			baseConfigurationReference = 1D6C2C3CD8BB9A4DB7155ED2 /* Pods-HackathonClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackathonClient/Source/Live/Agora",
+				);
 				INFOPLIST_FILE = HackathonClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

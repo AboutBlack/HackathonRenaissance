@@ -9,6 +9,7 @@
 #import "CYLPlusButtonSubclass.h"
 #import "CYLTabBarController.h"
 //#import "CYLMineViewController.h"
+#import "LiveViewController.h"
 
 @interface CYLPlusButtonSubclass ()<UIActionSheetDelegate> {
     CGFloat _buttonImageHeight;
@@ -70,7 +71,7 @@
     CYLPlusButtonSubclass *button = [[CYLPlusButtonSubclass alloc] init];
     UIImage *buttonImage = [UIImage imageNamed:@"post_normal"];
     [button setImage:buttonImage forState:UIControlStateNormal];
-    [button setTitle:@"发布" forState:UIControlStateNormal];
+    [button setTitle:@"直播" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     
     [button setTitle:@"选中" forState:UIControlStateSelected];
@@ -108,14 +109,15 @@
 
 - (void)clickPublish {
     CYLTabBarController *tabBarController = [self cyl_tabBarController];
-    UIViewController *viewController = tabBarController.selectedViewController;
     
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-                                                             delegate:nil
-                                                    cancelButtonTitle:@"取消"
-                                               destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
-    [actionSheet showInView:viewController.view];
+//    LiveViewController *liveVC = [[LiveViewController alloc] init];
+    
+    LiveViewController *liveVC = [[LiveViewController alloc] initWithNibName:@"LiveViewController" bundle:nil];
+    
+    [tabBarController presentViewController:liveVC animated:YES completion:^{
+        
+    }];
+    
 }
 
 #pragma mark - UIActionSheetDelegate

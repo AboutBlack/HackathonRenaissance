@@ -2,12 +2,12 @@ platform:ios, '8.0'
 use_frameworks!
 
 target 'HackathonClient' do
-
-pod 'AFNetworking'
+pod "Qiniu", :git => 'https://github.com/qiniu/objc-sdk.git', :branch => 'AFNetworking-3.x'
+pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage'
 pod 'Mantle'
 pod 'Masonry'
 pod 'SVProgressHUD'
 pod 'CYLTabBarController'
-
+#pod 'Qiniu'
 end
