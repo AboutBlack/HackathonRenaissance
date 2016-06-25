@@ -8,7 +8,7 @@
 
 #import "LiveViewController.h"
 #import <AFNetworking/AFNetworking.h>
-//#import <Wilddog/Wilddog.h>
+#import <Wilddog/Wilddog.h>
 
 @interface LiveViewController (){
     __block AgoraRtcStats *lastStat_;
@@ -162,8 +162,19 @@
     [self.titleField resignFirstResponder];
     [self.priceField resignFirstResponder];
     
-    
-    // todo: 打接口
+    if (self.titleField.text.length != 0 && self.priceField.text.length != 0) {
+        
+        NSString *url = [NSString stringWithFormat:@"https://aboutblank-hackathonclient.wilddogio.com/goods/%@", self.titleField.text];
+        
+        NSString *nameURL = [NSString stringWithFormat:@"%@/name", url];
+        NSString *priceURL = [NSString stringWithFormat:@"%@/price", url];
+        
+        Wilddog *nameRef = [[Wilddog alloc] initWithUrl:nameURL];
+        Wilddog *priceRef = [[Wilddog alloc] initWithUrl:priceURL];
+        
+        [nameRef setValue:self.titleField.text];
+        [priceRef setValue:self.priceField.text];
+    }
 }
 
 - (IBAction)didClickBackView:(id)sender
