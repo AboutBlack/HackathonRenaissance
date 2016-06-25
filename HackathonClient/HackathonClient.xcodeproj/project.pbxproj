@@ -28,6 +28,8 @@
 		B16E37D51D1E8B1300877D4A /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */; };
 		B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37D61D1E97D300877D4A /* LiveViewController.xib */; };
 		B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */; };
+		B16E37E11D1EAB1600877D4A /* WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DF1D1EAB1600877D4A /* WatchViewController.m */; };
+		B16E37E21D1EAB1600877D4A /* WatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37E01D1EAB1600877D4A /* WatchViewController.xib */; };
 		C54B5BDD1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */; };
 		C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE01D1EA67D005B8273 /* JGridView.m */; };
@@ -69,6 +71,9 @@
 		B16E37D61D1E97D300877D4A /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
 		B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDChatCell.h; sourceTree = "<group>"; };
 		B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDChatCell.m; sourceTree = "<group>"; };
+		B16E37DE1D1EAB1600877D4A /* WatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchViewController.h; sourceTree = "<group>"; };
+		B16E37DF1D1EAB1600877D4A /* WatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchViewController.m; sourceTree = "<group>"; };
+		B16E37E01D1EAB1600877D4A /* WatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchViewController.xib; sourceTree = "<group>"; };
 		C54B5BD91D1EA64C005B8273 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
 		C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		C54B5BDB1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
@@ -198,6 +203,9 @@
 				B16E37B11D1E784A00877D4A /* LiveViewController.h */,
 				B16E37B21D1E784A00877D4A /* LiveViewController.m */,
 				B16E37D61D1E97D300877D4A /* LiveViewController.xib */,
+				B16E37DE1D1EAB1600877D4A /* WatchViewController.h */,
+				B16E37DF1D1EAB1600877D4A /* WatchViewController.m */,
+				B16E37E01D1EAB1600877D4A /* WatchViewController.xib */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -333,6 +341,7 @@
 				B16E37A31D1E51E500877D4A /* LaunchScreen.storyboard in Resources */,
 				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
+				B16E37E21D1EAB1600877D4A /* WatchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +408,7 @@
 				C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */,
 				C54B5BE61D1EA67D005B8273 /* JMessageCell.m in Sources */,
 				B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */,
+				B16E37E11D1EAB1600877D4A /* WatchViewController.m in Sources */,
 				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
 				C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				B16E37981D1E51E500877D4A /* AppDelegate.m in Sources */,

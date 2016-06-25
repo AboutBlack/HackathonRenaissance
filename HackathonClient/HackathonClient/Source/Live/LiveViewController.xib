@@ -92,8 +92,8 @@
                             <variation key="default">
                                 <mask key="constraints">
                                     <exclude reference="4ou-8i-B9R"/>
-                                    <exclude reference="w1t-HL-g5W"/>
                                     <exclude reference="iEF-7p-IbN"/>
+                                    <exclude reference="w1t-HL-g5W"/>
                                     <exclude reference="EM9-7G-cHV"/>
                                     <exclude reference="mZE-Yh-Jwm"/>
                                 </mask>
@@ -199,8 +199,8 @@
                             <variation key="default">
                                 <mask key="constraints">
                                     <exclude reference="IHD-p3-2jS"/>
-                                    <exclude reference="k39-KE-f3I"/>
                                     <exclude reference="LeM-Es-u1s"/>
+                                    <exclude reference="k39-KE-f3I"/>
                                     <exclude reference="A1p-4g-xv9"/>
                                     <exclude reference="awm-zE-Lzp"/>
                                     <exclude reference="Wwc-6z-Bvf"/>
@@ -311,9 +311,9 @@
                     <variation key="default">
                         <mask key="constraints">
                             <exclude reference="ao2-oM-tKg"/>
+                            <exclude reference="p0M-bM-2WA"/>
                             <exclude reference="qZW-bH-rig"/>
                             <exclude reference="wcZ-Ze-fzc"/>
-                            <exclude reference="p0M-bM-2WA"/>
                         </mask>
                     </variation>
                 </view>
