@@ -8,13 +8,17 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "CYLTabBarController.h"
+
+#import "CYLTabBarControllerConfig.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) CYLTabBarController *tabBarController;
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -23,8 +27,8 @@
     [self.window setBackgroundColor:[UIColor whiteColor]];
     //来个注释
     
-    ViewController *vc = [[ViewController alloc] init];
-    [self.window setRootViewController:vc];
+    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
+    [self.window setRootViewController:tabBarControllerConfig.tabBarController];
     
     // Override point for customization after application launch.
     return YES;
