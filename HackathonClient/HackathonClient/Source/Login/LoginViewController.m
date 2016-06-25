@@ -27,6 +27,7 @@
 - (IBAction)loginButtonClick:(UIButton *)sender {
     if (self.block) {
         self.block();
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
     }
 }
 @end
