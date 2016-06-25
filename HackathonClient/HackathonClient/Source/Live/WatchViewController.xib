@@ -11,7 +11,6 @@
                 <outlet property="audioButton" destination="50y-zw-QYc" id="qOn-YG-BtT"/>
                 <outlet property="audioControlView" destination="pcK-nh-TzC" id="5tr-GS-vT3"/>
                 <outlet property="cameraControlButton" destination="QVm-1j-w57" id="YvQ-PW-d3q"/>
-                <outlet property="collectionView" destination="API-78-S6A" id="pAl-BJ-o5D"/>
                 <outlet property="dataTrafficLabel" destination="4Xt-CJ-gUL" id="LcZ-vw-3Ap"/>
                 <outlet property="talkTimeLabel" destination="HKO-Bc-XVo" id="bGP-WJ-YTQ"/>
                 <outlet property="videoButton" destination="Xgi-zc-yax" id="aXp-7B-9S5"/>
@@ -318,84 +317,6 @@
                         </mask>
                     </variation>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="API-78-S6A">
-                    <rect key="frame" x="0.0" y="472" width="600" height="80"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="80" id="9u7-uP-LHL"/>
-                    </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="aK2-l7-nd8">
-                        <size key="itemSize" width="80" height="80"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                    <cells>
-                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="2Nj-4X-5jj" customClass="AGDChatCell">
-                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3s-f4-mzZ" userLabel="video">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jET-ha-HWt" userLabel="audio">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_cell_microphone_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ZEv-iO-lMe">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_cell_microphone" translatesAutoresizingMaskIntoConstraints="NO" id="PZh-ds-tV0">
-                                                <rect key="frame" x="25" y="16" width="30" height="30"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0S-Ge-aeU">
-                                                <rect key="frame" x="22" y="52" width="35" height="15"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="a0S-Ge-aeU" firstAttribute="centerX" secondItem="PZh-ds-tV0" secondAttribute="centerX" id="59u-ZG-lLd"/>
-                                            <constraint firstAttribute="bottom" secondItem="ZEv-iO-lMe" secondAttribute="bottom" id="E1i-Kg-N1x"/>
-                                            <constraint firstAttribute="centerY" secondItem="PZh-ds-tV0" secondAttribute="centerY" constant="9" id="JZC-Or-LJz"/>
-                                            <constraint firstItem="ZEv-iO-lMe" firstAttribute="leading" secondItem="jET-ha-HWt" secondAttribute="leading" id="O22-36-ewH"/>
-                                            <constraint firstAttribute="centerX" secondItem="PZh-ds-tV0" secondAttribute="centerX" id="QAu-kp-GJg"/>
-                                            <constraint firstItem="a0S-Ge-aeU" firstAttribute="top" secondItem="PZh-ds-tV0" secondAttribute="bottom" constant="6" id="ZVL-ia-ZN6"/>
-                                            <constraint firstItem="ZEv-iO-lMe" firstAttribute="top" secondItem="jET-ha-HWt" secondAttribute="top" id="mrF-nn-CJC"/>
-                                            <constraint firstAttribute="trailing" secondItem="ZEv-iO-lMe" secondAttribute="trailing" id="z2e-Jp-Mry"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
-                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="trailing" secondItem="Q3s-f4-mzZ" secondAttribute="trailing" id="9lI-c3-2Da"/>
-                                <constraint firstAttribute="bottom" secondItem="jET-ha-HWt" secondAttribute="bottom" id="Kes-hS-HsK"/>
-                                <constraint firstItem="jET-ha-HWt" firstAttribute="top" secondItem="2Nj-4X-5jj" secondAttribute="top" id="anY-oB-rzs"/>
-                                <constraint firstAttribute="bottom" secondItem="Q3s-f4-mzZ" secondAttribute="bottom" id="cBc-mH-QVh"/>
-                                <constraint firstAttribute="trailing" secondItem="jET-ha-HWt" secondAttribute="trailing" id="diA-TN-aRw"/>
-                                <constraint firstItem="Q3s-f4-mzZ" firstAttribute="top" secondItem="2Nj-4X-5jj" secondAttribute="top" id="eRn-2d-N0w"/>
-                                <constraint firstItem="jET-ha-HWt" firstAttribute="leading" secondItem="2Nj-4X-5jj" secondAttribute="leading" id="nrn-1V-QPw"/>
-                                <constraint firstItem="Q3s-f4-mzZ" firstAttribute="leading" secondItem="2Nj-4X-5jj" secondAttribute="leading" id="okL-Gg-jRl"/>
-                            </constraints>
-                            <connections>
-                                <outlet property="audioView" destination="jET-ha-HWt" id="vmD-05-0tF"/>
-                                <outlet property="nameLabel" destination="a0S-Ge-aeU" id="kak-4V-p9d"/>
-                                <outlet property="videoView" destination="Q3s-f4-mzZ" id="Pxn-3D-e10"/>
-                            </connections>
-                        </collectionViewCell>
-                    </cells>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="9a2-kP-0wf"/>
-                        <outlet property="delegate" destination="-1" id="kgr-HK-9P8"/>
-                    </connections>
-                </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WP4-s4-CdD" userLabel="audio/video switch">
                     <rect key="frame" x="0.0" y="552" width="600" height="48"/>
                     <subviews>
@@ -450,12 +371,9 @@
             <constraints>
                 <constraint firstItem="P5B-65-qoN" firstAttribute="leading" secondItem="vqL-Qq-2sP" secondAttribute="leading" id="1Wp-cK-6G7"/>
                 <constraint firstAttribute="bottom" secondItem="P5B-65-qoN" secondAttribute="bottom" constant="48" id="DRD-se-AtT"/>
-                <constraint firstItem="P5B-65-qoN" firstAttribute="bottom" secondItem="API-78-S6A" secondAttribute="bottom" id="DxZ-v8-oEM"/>
                 <constraint firstItem="KN9-1a-cJO" firstAttribute="leading" secondItem="vqL-Qq-2sP" secondAttribute="leading" id="HQ9-i2-826"/>
-                <constraint firstItem="API-78-S6A" firstAttribute="leading" secondItem="vqL-Qq-2sP" secondAttribute="leading" id="I8X-bi-gTj"/>
                 <constraint firstAttribute="trailing" secondItem="P5B-65-qoN" secondAttribute="trailing" id="NbJ-6A-DQ5"/>
                 <constraint firstAttribute="trailing" secondItem="WP4-s4-CdD" secondAttribute="trailing" id="Nty-oY-6Zi"/>
-                <constraint firstAttribute="trailing" secondItem="API-78-S6A" secondAttribute="trailing" id="Wkw-g6-2XF"/>
                 <constraint firstAttribute="trailing" secondItem="KN9-1a-cJO" secondAttribute="trailing" id="bDV-Ne-B2s"/>
                 <constraint firstItem="COD-ye-LaA" firstAttribute="top" secondItem="KN9-1a-cJO" secondAttribute="bottom" constant="12" id="bwC-kb-4wU"/>
                 <constraint firstAttribute="centerX" secondItem="COD-ye-LaA" secondAttribute="centerX" id="jAM-Re-6zD"/>
@@ -477,8 +395,6 @@
         <image name="ic_room_button_close_pressed" width="35" height="35"/>
         <image name="ic_room_button_video" width="28" height="24"/>
         <image name="ic_room_button_yellow_bg" width="151" height="39"/>
-        <image name="ic_room_cell_microphone" width="30" height="30"/>
-        <image name="ic_room_cell_microphone_bg" width="81" height="82"/>
         <image name="ic_room_hung_up" width="41" height="41"/>
         <image name="ic_room_loudspeaker" width="35" height="35"/>
         <image name="ic_room_loudspeaker_pressed" width="35" height="35"/>

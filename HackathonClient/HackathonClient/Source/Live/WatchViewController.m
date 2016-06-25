@@ -21,8 +21,6 @@
 
 @property (weak, nonatomic) IBOutlet UIView *videoMainView;
 
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
-
 @property (weak, nonatomic) IBOutlet UILabel *talkTimeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dataTrafficLabel;
 @property (weak, nonatomic) IBOutlet UILabel *alertLabel;
@@ -58,8 +56,6 @@
                         AGDKeyVendorKey: AGDKeyVendorValue};
     
     self.chatType = AGDChatTypeVideo;
-    
-    [self.collectionView registerClass:[AGDChatCell class] forCellWithReuseIdentifier:@"CollectionViewCell"];
     
     self.uids = [NSMutableArray array];
     self.videoMuteForUids = [NSMutableDictionary dictionary];
@@ -185,7 +181,7 @@
 {
     [self showAlertLabelWithString:NSLocalizedString(@"主播正在路上", nil)];
     __weak typeof(self) weakSelf = self;
-    [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:0 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
+    [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:self.userid joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
         [weakSelf.agoraKit setEnableSpeakerphone:NO];
         
@@ -209,7 +205,7 @@
 -(void)rtcEngine:(AgoraRtcEngineKit *)engine firstRemoteVideoDecodedOfUid:(NSUInteger)uid size:(CGSize)size elapsed:(NSInteger)elapsed {
     
     AgoraRtcVideoCanvas *videoCanvas = [[AgoraRtcVideoCanvas alloc] init];
-    videoCanvas.uid = uid;
+    videoCanvas.uid = 999;
     videoCanvas.view = self.videoMainView;
     videoCanvas.renderMode = AgoraRtc_Render_Hidden;
     [self.agoraKit setupRemoteVideo:videoCanvas];
@@ -229,8 +225,6 @@
     NSLog(@"engine: %@", engine);
     [weakSelf hideAlertLabel];
     [weakSelf.uids addObject:@(uid)];
-    
-    [weakSelf.collectionView insertItemsAtIndexPaths:@[[NSIndexPath indexPathForRow:weakSelf.uids.count-1 inSection:0]]];
 }
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine didOfflineOfUid:(NSUInteger)uid reason:(AgoraRtcUserOfflineReason)reason
 {
@@ -239,7 +233,6 @@
     if (index != NSNotFound) {
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:0];
         [weakSelf.uids removeObjectAtIndex:index];
-        [weakSelf.collectionView deleteItemsAtIndexPaths:@[indexPath]];
     }
 }
 
@@ -249,7 +242,6 @@
     NSLog(@"user %@ mute video: %@", @(uid), muted ? @"YES" : @"NO");
     
     [weakSelf.videoMuteForUids setObject:@(muted) forKey:@(uid)];
-    [weakSelf.collectionView reloadItemsAtIndexPaths:@[[NSIndexPath indexPathForRow:[weakSelf.uids indexOfObject:@(uid)] inSection:0]]];
 }
 
 - (void)rtcEngineConnectionDidLost:(AgoraRtcEngineKit *)engine
@@ -361,42 +353,6 @@
     self.talkTimeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld", (unsigned long)minutes, (unsigned long)seconds];
 }
 
-#pragma mark - CollectionView delegate
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
-    return self.uids.count;
-}
-
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    AGDChatCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CollectionViewCell" forIndexPath:indexPath];
-    cell.type = self.type;
-    
-    // Get info
-    NSNumber *uid = [self.uids objectAtIndex:indexPath.row];
-    NSNumber *videoMute = [self.videoMuteForUids objectForKey:uid];
-    
-    if (self.type == AGDChatTypeVideo) {
-        if (videoMute.boolValue) {
-            cell.type = AGDChatTypeAudio;
-        } else {
-            cell.type = AGDChatTypeVideo;
-            AgoraRtcVideoCanvas *videoCanvas = [[AgoraRtcVideoCanvas alloc] init];
-            videoCanvas.uid = uid.unsignedIntegerValue;
-            videoCanvas.view = cell.videoView;
-            videoCanvas.renderMode = AgoraRtc_Render_Hidden;
-            [self.agoraKit setupRemoteVideo:videoCanvas];
-        }
-    } else {
-        cell.type = AGDChatTypeAudio;
-    }
-    
-    // Audio
-    cell.nameLabel.text = uid.stringValue;
-    return cell;
-}
-
 #pragma mark - State states
 
 - (void)setType:(AGDChatType)type
@@ -425,7 +381,6 @@
         //
         self.videoMainView.hidden = YES;
     }
-    [self.collectionView reloadData];
 }
 
 - (void)selectSpeakerButtons:(BOOL)selected

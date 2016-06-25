@@ -4,6 +4,967 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFAutoPurgingImageCache.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFImageDownloader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CYLPlusButton.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/CYLTabBarController/CYLTabBarController/CYLPlusButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "CYLTabBar.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/CYLTabBarController/CYLTabBarController/CYLTabBar.h"
+        },
+        {
+          'type': 'file',
+          'name': "CYLTabBarController-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Headers/CYLTabBarController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CYLTabBarController-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/CYLTabBarController/CYLTabBarController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CYLTabBarController.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/CYLTabBarController/CYLTabBarController/CYLTabBarController.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+CYLTabBarControllerExtention.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/CYLTabBarController/CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/CYLTabBarController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/CYLTabBarController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HappyDNS-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Headers/HappyDNS-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HappyDNS-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/HappyDNS/HappyDNS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HappyDNS.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/HappyDNS.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNDes.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Util/QNDes.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNDnsManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Common/QNDnsManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNDnspodEnterprise.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Http/QNDnspodEnterprise.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNDnspodFree.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Http/QNDnspodFree.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNDomain.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Common/QNDomain.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNHex.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Util/QNHex.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNHijackingDetectWrapper.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Local/QNHijackingDetectWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNHosts.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Local/QNHosts.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNIP.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Util/QNIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNNetworkInfo.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Common/QNNetworkInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNRecord.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Common/QNRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNResolvUtil.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Local/QNResolvUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNResolver.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Local/QNResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNResolverDelegate.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Common/QNResolverDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNTxtResolver.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/HappyDNS/HappyDNS/Local/QNTxtResolver.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/HappyDNS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/HappyDNS.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MJRefresh-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Headers/MJRefresh-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefresh-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/MJRefresh/MJRefresh-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefresh.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoGifFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoNormalFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshAutoStateFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackGifFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackNormalFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshBackStateFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshComponent.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshConst.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/MJRefreshConst.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshFooter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshGifHeader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshHeader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshNormalHeader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MJRefreshStateHeader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+MJRefresh.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/NSBundle+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJExtension.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/UIScrollView+MJExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+MJRefresh.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+MJExtension.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/MJRefresh/MJRefresh/UIView+MJExtension.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/MJRefresh.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/MJRefresh.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MTLJSONAdapter.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLJSONAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTLModel+NSCoding.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLModel+NSCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTLModel.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTLReflection.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLReflection.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTLTransformerErrorHandling.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLTransformerErrorHandling.h"
+        },
+        {
+          'type': 'file',
+          'name': "MTLValueTransformer.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/MTLValueTransformer.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mantle-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/Mantle-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mantle-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/Mantle/Mantle-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mantle.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/Mantle.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MTLManipulationAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSArray+MTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+MTLJSONKeyPath.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSDictionary+MTLJSONKeyPath.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+MTLManipulationAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSDictionary+MTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+MTLMappingAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSDictionary+MTLMappingAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+MTLModelException.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSError+MTLModelException.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+MTLComparisonAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSObject+MTLComparisonAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+MTLInversionAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSValueTransformer+MTLInversionAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+MTLPredefinedTransformerAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Mantle.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EXTKeyPathCoding.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/extobjc/EXTKeyPathCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "EXTRuntimeExtensions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/extobjc/EXTRuntimeExtensions.h"
+        },
+        {
+          'type': 'file',
+          'name': "EXTScope.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/extobjc/EXTScope.h"
+        },
+        {
+          'type': 'file',
+          'name': "metamacros.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Mantle/Mantle/extobjc/metamacros.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MASCompositeConstraint.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASCompositeConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint+Private.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASConstraint+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraintMaker.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASConstraintMaker.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASLayoutConstraint.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASLayoutConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASUtilities.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewAttribute.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASViewAttribute.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewConstraint.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/MASViewConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Headers/Masonry-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/Masonry/Masonry-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/Masonry.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/NSArray+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASShorthandAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+MASDebugAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/View+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASShorthandAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/View+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "ViewController+MASAdditions.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Masonry/Masonry/ViewController+MASAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Masonry.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Masonry.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-HackathonClient-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_HackathonClient-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Headers/Pods_HackathonClient-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Pods_HackathonClient.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-HackathonClient.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "QNALAssetFile.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNALAssetFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNAsyncRun.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNAsyncRun.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNConfiguration.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNCrc32.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNCrc32.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNEtag.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNEtag.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNFile.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNFileDelegate.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNFileDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNFileRecorder.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Recorder/QNFileRecorder.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNFormUpload.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNFormUpload.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNHttpDelegate.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Http/QNHttpDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNPHAssetFile.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNPHAssetFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNPHAssetResource.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNPHAssetResource.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNRecorderDelegate.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Recorder/QNRecorderDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNResponseInfo.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Http/QNResponseInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNResumeUpload.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNResumeUpload.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNSessionManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Http/QNSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNSystem.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNSystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUpToken.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUpToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUploadManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUploadOption+Private.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadOption+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUploadOption.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadOption.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUrlSafeBase64.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNUrlSafeBase64.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNUserAgent.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Http/QNUserAgent.h"
+        },
+        {
+          'type': 'file',
+          'name': "QNVersion.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QNVersion.h"
+        },
+        {
+          'type': 'file',
+          'name': "QN_GTM_Base64.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Common/QN_GTM_Base64.h"
+        },
+        {
+          'type': 'file',
+          'name': "Qiniu-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Headers/Qiniu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Qiniu-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/Qiniu/Qiniu-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "QiniuSDK.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/QiniuSDK.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Qiniu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/Qiniu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSData+ImageContentType.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCache.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDecoder.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloader.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloaderOperation.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageManager.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageOperation.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImagePrefetcher.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+WebCache.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+GIF.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MultiFormat.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+HighlightedWebCache.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+WebCache.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCacheOperation.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SDWebImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/TZImagePickerController.framework/Headers",
       'contents': [
         {
@@ -71,6 +1032,68 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/TZImagePickerController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "XHBadgeLabel.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHBadgeLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHLoginFooterView.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHLoginFooterView.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting-Swift.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Headers/XHSetting-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting-umbrella.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Target Support Files/XHSetting/XHSetting-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHSetting.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHSetting.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewBlocks.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewBlocks.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTableViewSection.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTableViewSection.h"
+        },
+        {
+          'type': 'file',
+          'name': "XHTextFieldTableViewCell.h",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/XHSetting/Source/XHTextFieldTableViewCell.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/XHSetting.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/XHSetting.build/module.modulemap"
         }
       ]
     }
