@@ -9,5 +9,5 @@ pod 'Mantle'
 pod 'Masonry'
 pod 'SVProgressHUD'
 pod 'CYLTabBarController'
-pod "Qiniu"
+#pod 'Qiniu'
 end

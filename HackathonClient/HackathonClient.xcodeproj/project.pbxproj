@@ -167,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B16E37A71D1E51E500877D4A /* Build configuration list for PBXNativeTarget "HackathonClient" */;
 			buildPhases = (
-				02B59FB5DF3610EE7F49D754 /* Check Pods Manifest.lock */,
+				02B59FB5DF3610EE7F49D754 /* [CP] Check Pods Manifest.lock */,
 				B16E378C1D1E51E500877D4A /* Sources */,
 				B16E378D1D1E51E500877D4A /* Frameworks */,
 				B16E378E1D1E51E500877D4A /* Resources */,
-				83872EEA21439566ACC7B03C /* Embed Pods Frameworks */,
-				8363AE9BDA0CC1DA65F33EE7 /* Copy Pods Resources */,
+				83872EEA21439566ACC7B03C /* [CP] Embed Pods Frameworks */,
+				8363AE9BDA0CC1DA65F33EE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,14 +228,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02B59FB5DF3610EE7F49D754 /* Check Pods Manifest.lock */ = {
+		02B59FB5DF3610EE7F49D754 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,14 +243,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8363AE9BDA0CC1DA65F33EE7 /* Copy Pods Resources */ = {
+		8363AE9BDA0CC1DA65F33EE7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,14 +258,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83872EEA21439566ACC7B03C /* Embed Pods Frameworks */ = {
+		83872EEA21439566ACC7B03C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
