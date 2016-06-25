@@ -7,7 +7,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WatchViewController">
             <connections>
+                <outlet property="alertLabel" destination="pFm-rE-Mkg" id="UR9-Xi-MEo"/>
+                <outlet property="audioButton" destination="50y-zw-QYc" id="qOn-YG-BtT"/>
+                <outlet property="audioControlView" destination="pcK-nh-TzC" id="5tr-GS-vT3"/>
+                <outlet property="cameraControlButton" destination="QVm-1j-w57" id="YvQ-PW-d3q"/>
+                <outlet property="collectionView" destination="API-78-S6A" id="pAl-BJ-o5D"/>
+                <outlet property="dataTrafficLabel" destination="4Xt-CJ-gUL" id="LcZ-vw-3Ap"/>
+                <outlet property="talkTimeLabel" destination="HKO-Bc-XVo" id="bGP-WJ-YTQ"/>
+                <outlet property="videoButton" destination="Xgi-zc-yax" id="aXp-7B-9S5"/>
+                <outlet property="videoControlView" destination="CCZ-iF-ioC" id="bLd-ay-t4G"/>
+                <outlet property="videoMainView" destination="6Wl-eM-trp" id="j0G-vm-Ert"/>
                 <outlet property="view" destination="vqL-Qq-2sP" id="iDE-xP-Yk5"/>
+                <outletCollection property="audioMuteControlButtons" destination="l9j-xp-Tfq" id="Yg4-xl-blC"/>
+                <outletCollection property="audioMuteControlButtons" destination="l9j-xp-Tfq" id="MF4-pd-rYS"/>
+                <outletCollection property="speakerControlButtons" destination="L5s-1h-TZu" id="Xkg-U3-1vv"/>
+                <outletCollection property="speakerControlButtons" destination="crp-kj-fiJ" id="axl-oi-5kj"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -236,19 +250,23 @@
                             <state key="normal" image="ic_room_hung_up">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="DGd-Ul-9q8"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="nGd-71-B0g" firstAttribute="top" secondItem="P5B-65-qoN" secondAttribute="top" id="7pv-VF-OgK"/>
                         <constraint firstAttribute="centerX" secondItem="S7g-Mm-LHJ" secondAttribute="centerX" id="8n8-5T-mZA"/>
+                        <constraint firstItem="6Wl-eM-trp" firstAttribute="top" secondItem="P5B-65-qoN" secondAttribute="top" id="A51-ub-lqW"/>
                         <constraint firstAttribute="trailing" secondItem="pFm-rE-Mkg" secondAttribute="trailing" id="DDD-Wv-1Te"/>
-                        <constraint firstItem="nGd-71-B0g" firstAttribute="bottom" secondItem="6Wl-eM-trp" secondAttribute="bottom" id="Dro-3W-GFN"/>
-                        <constraint firstItem="nGd-71-B0g" firstAttribute="leading" secondItem="6Wl-eM-trp" secondAttribute="leading" id="PtK-6v-vb7"/>
                         <constraint firstItem="nGd-71-B0g" firstAttribute="leading" secondItem="P5B-65-qoN" secondAttribute="leading" id="PzZ-cj-wCx"/>
+                        <constraint firstItem="6Wl-eM-trp" firstAttribute="leading" secondItem="P5B-65-qoN" secondAttribute="leading" id="TKI-bW-WcE"/>
                         <constraint firstAttribute="bottom" secondItem="nGd-71-B0g" secondAttribute="bottom" id="aWa-Ea-n7D"/>
                         <constraint firstItem="pFm-rE-Mkg" firstAttribute="top" secondItem="P5B-65-qoN" secondAttribute="top" priority="250" constant="160" id="bep-K1-Ibz"/>
+                        <constraint firstAttribute="trailing" secondItem="6Wl-eM-trp" secondAttribute="trailing" id="dWC-u1-JMT"/>
                         <constraint firstAttribute="trailing" secondItem="nGd-71-B0g" secondAttribute="trailing" id="nmK-84-Mle"/>
-                        <constraint firstItem="nGd-71-B0g" firstAttribute="top" secondItem="6Wl-eM-trp" secondAttribute="top" id="s2r-Ot-ExS"/>
+                        <constraint firstAttribute="bottom" secondItem="6Wl-eM-trp" secondAttribute="bottom" id="qO7-lI-CUu"/>
                         <constraint firstItem="pFm-rE-Mkg" firstAttribute="leading" secondItem="P5B-65-qoN" secondAttribute="leading" id="vDs-b6-9aU"/>
                         <constraint firstItem="S7g-Mm-LHJ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pFm-rE-Mkg" secondAttribute="bottom" constant="5" id="vdi-Ku-TQo"/>
                         <constraint firstAttribute="bottom" secondItem="S7g-Mm-LHJ" secondAttribute="bottom" constant="100" id="xta-Fq-gz9"/>
@@ -373,6 +391,10 @@
                             </connections>
                         </collectionViewCell>
                     </cells>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="9a2-kP-0wf"/>
+                        <outlet property="delegate" destination="-1" id="kgr-HK-9P8"/>
+                    </connections>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WP4-s4-CdD" userLabel="audio/video switch">
                     <rect key="frame" x="0.0" y="552" width="600" height="48"/>

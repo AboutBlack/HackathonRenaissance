@@ -11,7 +11,6 @@
                 <outlet property="audioButton" destination="1y7-IK-KfS" id="Yd6-ha-vxC"/>
                 <outlet property="audioControlView" destination="1b2-zC-RVm" id="nuI-eU-M1Z"/>
                 <outlet property="cameraControlButton" destination="Pns-7m-riS" id="9h4-0O-dDc"/>
-                <outlet property="collectionView" destination="47R-H2-BBS" id="5Kw-NS-zLQ"/>
                 <outlet property="dataTrafficLabel" destination="DIZ-SG-gib" id="cgR-Ex-1gC"/>
                 <outlet property="talkTimeLabel" destination="AhX-fB-Dgi" id="ROj-2T-nya"/>
                 <outlet property="videoButton" destination="y2N-Wy-DD1" id="vCK-Sw-mBX"/>
@@ -317,84 +316,6 @@
                         </mask>
                     </variation>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="47R-H2-BBS">
-                    <rect key="frame" x="0.0" y="472" width="600" height="80"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="80" id="0sv-qi-FrP"/>
-                    </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="fZh-Ab-2Sv">
-                        <size key="itemSize" width="80" height="80"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                    <cells>
-                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="bnr-12-0on" customClass="AGDChatCell">
-                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gO-tc-E1u" userLabel="video">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7h-iB-zyL" userLabel="audio">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_cell_microphone_bg" translatesAutoresizingMaskIntoConstraints="NO" id="xAz-Ug-sWc">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_cell_microphone" translatesAutoresizingMaskIntoConstraints="NO" id="Mt1-Fo-2se">
-                                                <rect key="frame" x="25" y="16" width="30" height="30"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujg-7C-Nom">
-                                                <rect key="frame" x="22" y="52" width="35" height="15"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="centerY" secondItem="Mt1-Fo-2se" secondAttribute="centerY" constant="9" id="7Z2-QG-WUc"/>
-                                            <constraint firstItem="xAz-Ug-sWc" firstAttribute="top" secondItem="g7h-iB-zyL" secondAttribute="top" id="I1Y-eU-nUO"/>
-                                            <constraint firstItem="xAz-Ug-sWc" firstAttribute="leading" secondItem="g7h-iB-zyL" secondAttribute="leading" id="KiV-os-EXY"/>
-                                            <constraint firstItem="Ujg-7C-Nom" firstAttribute="centerX" secondItem="Mt1-Fo-2se" secondAttribute="centerX" id="OEB-4x-lBs"/>
-                                            <constraint firstAttribute="trailing" secondItem="xAz-Ug-sWc" secondAttribute="trailing" id="oh5-YI-uyV"/>
-                                            <constraint firstAttribute="centerX" secondItem="Mt1-Fo-2se" secondAttribute="centerX" id="qKJ-S2-DTw"/>
-                                            <constraint firstItem="Ujg-7C-Nom" firstAttribute="top" secondItem="Mt1-Fo-2se" secondAttribute="bottom" constant="6" id="scg-d7-VYF"/>
-                                            <constraint firstAttribute="bottom" secondItem="xAz-Ug-sWc" secondAttribute="bottom" id="xrA-LY-SW1"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
-                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstItem="g7h-iB-zyL" firstAttribute="leading" secondItem="bnr-12-0on" secondAttribute="leading" id="5tb-37-hE9"/>
-                                <constraint firstAttribute="trailing" secondItem="g7h-iB-zyL" secondAttribute="trailing" id="8xZ-0l-7ti"/>
-                                <constraint firstAttribute="bottom" secondItem="g7h-iB-zyL" secondAttribute="bottom" id="Dd6-xG-1Xg"/>
-                                <constraint firstItem="4gO-tc-E1u" firstAttribute="leading" secondItem="bnr-12-0on" secondAttribute="leading" id="IGi-4P-ETn"/>
-                                <constraint firstItem="g7h-iB-zyL" firstAttribute="top" secondItem="bnr-12-0on" secondAttribute="top" id="SMY-Yn-6j9"/>
-                                <constraint firstAttribute="bottom" secondItem="4gO-tc-E1u" secondAttribute="bottom" id="XKn-Nh-yDN"/>
-                                <constraint firstAttribute="trailing" secondItem="4gO-tc-E1u" secondAttribute="trailing" id="cNk-el-ING"/>
-                                <constraint firstItem="4gO-tc-E1u" firstAttribute="top" secondItem="bnr-12-0on" secondAttribute="top" id="yg5-hQ-SR2"/>
-                            </constraints>
-                            <connections>
-                                <outlet property="audioView" destination="g7h-iB-zyL" id="DEQ-IH-sQ2"/>
-                                <outlet property="nameLabel" destination="Ujg-7C-Nom" id="qdg-Ku-IOx"/>
-                                <outlet property="videoView" destination="4gO-tc-E1u" id="6aH-0f-tqd"/>
-                            </connections>
-                        </collectionViewCell>
-                    </cells>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="vEf-i6-i8F"/>
-                        <outlet property="delegate" destination="-1" id="fZE-pa-7My"/>
-                    </connections>
-                </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-3o-lOE" userLabel="audio/video switch">
                     <rect key="frame" x="0.0" y="552" width="600" height="48"/>
                     <subviews>
@@ -454,14 +375,11 @@
                 <constraint firstItem="Yqu-3o-lOE" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="bottom" id="BxK-Nq-xGx"/>
                 <constraint firstItem="Yqu-3o-lOE" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="ENa-xN-huU"/>
                 <constraint firstItem="Q3m-cJ-4Kv" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="HIn-IT-Gxu"/>
-                <constraint firstAttribute="trailing" secondItem="47R-H2-BBS" secondAttribute="trailing" id="JUe-EF-svF"/>
                 <constraint firstAttribute="trailing" secondItem="Yqu-3o-lOE" secondAttribute="trailing" id="Lde-f0-stR"/>
                 <constraint firstAttribute="bottom" secondItem="Q3m-cJ-4Kv" secondAttribute="bottom" constant="48" id="QXS-sE-eZC"/>
                 <constraint firstItem="Q3m-cJ-4Kv" firstAttribute="top" secondItem="c1M-qs-UGa" secondAttribute="bottom" id="Qhy-uy-V3z"/>
                 <constraint firstItem="n4q-g4-Pau" firstAttribute="top" secondItem="c1M-qs-UGa" secondAttribute="bottom" constant="12" id="Tgf-JL-851"/>
-                <constraint firstItem="47R-H2-BBS" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="Xf5-Yr-OYq"/>
                 <constraint firstAttribute="trailing" secondItem="c1M-qs-UGa" secondAttribute="trailing" id="chO-1V-nmR"/>
-                <constraint firstItem="Q3m-cJ-4Kv" firstAttribute="bottom" secondItem="47R-H2-BBS" secondAttribute="bottom" id="fEy-en-MEk"/>
             </constraints>
         </view>
     </objects>
@@ -476,8 +394,6 @@
         <image name="ic_room_button_close_pressed" width="35" height="35"/>
         <image name="ic_room_button_video" width="28" height="24"/>
         <image name="ic_room_button_yellow_bg" width="151" height="39"/>
-        <image name="ic_room_cell_microphone" width="30" height="30"/>
-        <image name="ic_room_cell_microphone_bg" width="81" height="82"/>
         <image name="ic_room_hung_up" width="41" height="41"/>
         <image name="ic_room_loudspeaker" width="35" height="35"/>
         <image name="ic_room_loudspeaker_pressed" width="35" height="35"/>

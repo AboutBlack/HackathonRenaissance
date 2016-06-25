@@ -79,7 +79,6 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    self.videoMainView.frame = self.videoMainView.superview.bounds; // video view's autolayout cause crash
     [self joinChannel];
     
     [self setNeedsStatusBarAppearanceUpdate];
@@ -188,10 +187,7 @@
     __weak typeof(self) weakSelf = self;
     [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:0 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
-        [weakSelf.agoraKit setEnableSpeakerphone:YES];
-        if (weakSelf.type == AGDChatTypeAudio) {
-            [weakSelf.agoraKit disableVideo];
-        }
+        [weakSelf.agoraKit setEnableSpeakerphone:NO];
         
         [UIApplication sharedApplication].idleTimerDisabled = YES;
         
@@ -203,11 +199,20 @@
 - (void)setUpVideo
 {
     [self.agoraKit enableVideo];
+//    AgoraRtcVideoCanvas *videoCanvas = [[AgoraRtcVideoCanvas alloc] init];
+//    videoCanvas.uid = 0;
+//    videoCanvas.view = self.videoMainView;
+//    videoCanvas.renderMode = AgoraRtc_Render_Hidden;
+//    [self.agoraKit setupLocalVideo:videoCanvas];
+}
+
+-(void)rtcEngine:(AgoraRtcEngineKit *)engine firstRemoteVideoDecodedOfUid:(NSUInteger)uid size:(CGSize)size elapsed:(NSInteger)elapsed {
+    
     AgoraRtcVideoCanvas *videoCanvas = [[AgoraRtcVideoCanvas alloc] init];
-    videoCanvas.uid = 0;
+    videoCanvas.uid = uid;
     videoCanvas.view = self.videoMainView;
     videoCanvas.renderMode = AgoraRtc_Render_Hidden;
-    [self.agoraKit setupLocalVideo:videoCanvas];
+    [self.agoraKit setupRemoteVideo:videoCanvas];
 }
 
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine firstLocalVideoFrameWithSize:(CGSize)size elapsed:(NSInteger)elapsed
