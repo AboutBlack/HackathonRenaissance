@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CYLTabBarController.h"
-
+#import "LoginViewController.h"
 #import "CYLTabBarControllerConfig.h"
 
 @interface AppDelegate ()
@@ -26,8 +26,15 @@
     [self.window setBackgroundColor:[UIColor whiteColor]];
     //来个注释
     
-    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
-    [self.window setRootViewController:tabBarControllerConfig.tabBarController];
+    BOOL userHasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:kHas_User_Login];
+    if (userHasLogin) {
+        CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
+        [self.window setRootViewController:tabBarControllerConfig.tabBarController];
+    } else {
+        // 登录页
+        LoginViewController *login = [[LoginViewController alloc]init];
+        self.window.rootViewController = login;
+    }
     
     // Override point for customization after application launch.
     return YES;

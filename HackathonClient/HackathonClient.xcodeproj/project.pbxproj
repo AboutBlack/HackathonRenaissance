@@ -28,6 +28,13 @@
 		B16E37D51D1E8B1300877D4A /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */; };
 		B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37D61D1E97D300877D4A /* LiveViewController.xib */; };
 		B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */; };
+		C54B5BDD1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */; };
+		C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE01D1EA67D005B8273 /* JGridView.m */; };
+		C54B5BE61D1EA67D005B8273 /* JMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE21D1EA67D005B8273 /* JMessageCell.m */; };
+		C54B5BE71D1EA67D005B8273 /* JMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE41D1EA67D005B8273 /* JMessageModel.m */; };
+		C54B5BEC1D1EA697005B8273 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BEA1D1EA697005B8273 /* LoginViewController.m */; };
+		C54B5BED1D1EA697005B8273 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +69,19 @@
 		B16E37D61D1E97D300877D4A /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
 		B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDChatCell.h; sourceTree = "<group>"; };
 		B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDChatCell.m; sourceTree = "<group>"; };
+		C54B5BD91D1EA64C005B8273 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
+		C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
+		C54B5BDB1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
+		C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		C54B5BDF1D1EA67D005B8273 /* JGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGridView.h; sourceTree = "<group>"; };
+		C54B5BE01D1EA67D005B8273 /* JGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGridView.m; sourceTree = "<group>"; };
+		C54B5BE11D1EA67D005B8273 /* JMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMessageCell.h; sourceTree = "<group>"; };
+		C54B5BE21D1EA67D005B8273 /* JMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMessageCell.m; sourceTree = "<group>"; };
+		C54B5BE31D1EA67D005B8273 /* JMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMessageModel.h; sourceTree = "<group>"; };
+		C54B5BE41D1EA67D005B8273 /* JMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMessageModel.m; sourceTree = "<group>"; };
+		C54B5BE91D1EA697005B8273 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C54B5BEA1D1EA697005B8273 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +165,7 @@
 		B16E37AA1D1E781B00877D4A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C54B5BE81D1EA697005B8273 /* Login */,
 				B16E37BA1D1E7DE200877D4A /* CYLTabBar */,
 				B16E37AB1D1E781B00877D4A /* Explore */,
 				B16E37AC1D1E781B00877D4A /* Live */,
@@ -156,6 +177,13 @@
 		B16E37AB1D1E781B00877D4A /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				C54B5BDF1D1EA67D005B8273 /* JGridView.h */,
+				C54B5BE01D1EA67D005B8273 /* JGridView.m */,
+				C54B5BE11D1EA67D005B8273 /* JMessageCell.h */,
+				C54B5BE21D1EA67D005B8273 /* JMessageCell.m */,
+				C54B5BE31D1EA67D005B8273 /* JMessageModel.h */,
+				C54B5BE41D1EA67D005B8273 /* JMessageModel.m */,
+				C54B5BD81D1EA64C005B8273 /* HYBMasonryAutoCellHeight */,
 				B16E37AE1D1E783300877D4A /* ExploreViewController.h */,
 				B16E37AF1D1E783300877D4A /* ExploreViewController.m */,
 			);
@@ -209,6 +237,27 @@
 				B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C54B5BD81D1EA64C005B8273 /* HYBMasonryAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				C54B5BD91D1EA64C005B8273 /* UITableView+HYBCacheHeight.h */,
+				C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */,
+				C54B5BDB1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
+				C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
+			);
+			path = HYBMasonryAutoCellHeight;
+			sourceTree = "<group>";
+		};
+		C54B5BE81D1EA697005B8273 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C54B5BE91D1EA697005B8273 /* LoginViewController.h */,
+				C54B5BEA1D1EA697005B8273 /* LoginViewController.m */,
+				C54B5BEB1D1EA697005B8273 /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		D1BB84EECCBF4F8C22A74A92 /* Pods */ = {
@@ -280,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54B5BED1D1EA697005B8273 /* LoginViewController.xib in Resources */,
 				B16E37A31D1E51E500877D4A /* LaunchScreen.storyboard in Resources */,
 				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
@@ -341,12 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54B5BE71D1EA67D005B8273 /* JMessageModel.m in Sources */,
 				B16E37C01D1E7DE200877D4A /* CYLTabBarControllerConfig.m in Sources */,
 				B16E37B31D1E784A00877D4A /* LiveViewController.m in Sources */,
 				B16E37B01D1E783300877D4A /* ExploreViewController.m in Sources */,
+				C54B5BEC1D1EA697005B8273 /* LoginViewController.m in Sources */,
+				C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */,
+				C54B5BE61D1EA67D005B8273 /* JMessageCell.m in Sources */,
 				B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */,
 				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
+				C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				B16E37981D1E51E500877D4A /* AppDelegate.m in Sources */,
+				C54B5BDD1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m in Sources */,
 				B16E37B61D1E785800877D4A /* ProfileViewController.m in Sources */,
 				B16E37951D1E51E500877D4A /* main.m in Sources */,
 			);
