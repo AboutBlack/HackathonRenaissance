@@ -183,7 +183,7 @@
 
 - (void)joinChannel
 {
-    [self showAlertLabelWithString:NSLocalizedString(@"wait_attendees", nil)];
+    [self showAlertLabelWithString:NSLocalizedString(@"主播正在路上", nil)];
     __weak typeof(self) weakSelf = self;
     [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:0 joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
