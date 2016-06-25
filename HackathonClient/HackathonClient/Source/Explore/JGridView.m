@@ -59,8 +59,6 @@
         }
         
         
-        [iv sd_setImageWithURL:dataSource[i] placeholderImage:[UIImage imageNamed:@"placeholder"]];
-        
         jggView.dataSource = dataSource;
         jggView.tapBlock = tapBlock;
         iv.userInteractionEnabled = YES;//默认关闭NO，打开就可以接受点击事件

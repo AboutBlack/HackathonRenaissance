@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Intermediates/Pods.build/Debug-iphonesimulator/MJRefresh.build/DerivedSources/MJRefresh_vers.c

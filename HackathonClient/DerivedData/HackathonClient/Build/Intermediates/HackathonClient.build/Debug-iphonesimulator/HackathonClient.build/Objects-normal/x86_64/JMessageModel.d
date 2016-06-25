@@ -1,3 +1,20 @@
 dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/JMessageModel.m \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/JMessageModel.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/HackathonClient/Source/Explore/JMessageModel.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/Mantle.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSError+MTLModelException.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSDictionary+MTLJSONKeyPath.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLReflection.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSValueTransformer+MTLPredefinedTransformerAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSValueTransformer+MTLInversionAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSObject+MTLComparisonAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSDictionary+MTLMappingAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSDictionary+MTLManipulationAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/NSArray+MTLManipulationAdditions.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLTransformerErrorHandling.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLValueTransformer.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLModel+NSCoding.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLModel.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/MTLJSONAdapter.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Headers/Mantle-umbrella.h \
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/DerivedData/HackathonClient/Build/Products/Debug-iphonesimulator/Mantle.framework/Modules/module.modulemap

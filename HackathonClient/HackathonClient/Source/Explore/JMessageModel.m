@@ -10,4 +10,20 @@
 
 @implementation JMessageModel
 
+
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    
+    return @{
+             
+             @"messageId" : @"id",
+             @"live_desc"  : @"live_desc",
+             @"live_img":@"live_img",
+             @"live_title":@"live_title",
+             @"room":@"room",
+             @"status":@"status",
+             @"time":@"time",
+             @"user":@"user"
+             };
+}
+
 @end

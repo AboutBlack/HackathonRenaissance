@@ -12,11 +12,18 @@
 #import "Masonry.h"
 #import "UITableViewCell+HYBMasonryAutoCellHeight.h"
 
+#import "MJRefresh.h"
+#import "Mantle.h"
+#import "AFNetworking.h"
+#import "CYLTableViewPlaceHolder.h"
+#import "WeChatStylePlaceHolder.h"
+
+
 
 
 static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 
-@interface ExploreViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface ExploreViewController ()<UITableViewDataSource,UITableViewDelegate,CYLTableViewPlaceHolderDelegate,WeChatStylePlaceHolderDelegate>
 
 @property (nonatomic,strong) UITableView *exploreTableView;
 
@@ -45,17 +52,66 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         make.edges.mas_equalTo(self.view);
     }];
     
-    [self.exploreTableView reloadData];
+    
+    
+    self.exploreTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(headerWithRefreshing)];
+    
+    // Enter the refresh status immediately
+    [self.exploreTableView.mj_header beginRefreshing];
 }
 
+#pragma mark --Action
+-(void)headerWithRefreshing{
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    NSString *url = @"http://hack2016.applinzi.com/Home/Index/livelist";
+    
+    [manager GET:url parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+        
+    }
+    success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+             
+             NSLog(@"这里打印请求成功要做的事--%@",responseObject);
+        
+       // NSArray *array = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
+        
+        for (NSDictionary *dic in responseObject) {
+         
+            
+            JMessageModel *model = [MTLJSONAdapter modelOfClass:[JMessageModel class] fromJSONDictionary:dic error:nil];
+            
+            if (model) {
+                [self.dataSource addObject:model];
+            }
+        }
+        
+        [self.exploreTableView.mj_header endRefreshing];
+
+        
+        [self.exploreTableView cyl_reloadData];
+    
+    }
+     
+    failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull   error) {
+             
+             NSLog(@"%@",error);  //这里打印错误信息
+        [self.exploreTableView.mj_header endRefreshing];
+             
+         }];
+    NSLog(@"下拉刷新");
+//    [self.exploreTableView.mj_header endRefreshing];
+//    [self.exploreTableView reloadData];
+
+}
 
 #pragma mark -- UITableViewDelegate && DataSource
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 3;
+    //return 3;
     
-   // return [self.dataSource count];
+    return [self.dataSource count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -144,10 +200,23 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         JMessageModel *model = [self.dataSource objectAtIndex:indexPath.row];
         
         
-        
+        NSLog(@"点击====");
     }
     
     
+}
+
+#pragma mark --data
+- (UIView *)weChatStylePlaceHolder {
+    WeChatStylePlaceHolder *weChatStylePlaceHolder = [[WeChatStylePlaceHolder alloc] initWithFrame:self.exploreTableView.frame];
+    weChatStylePlaceHolder.delegate = self;
+    return weChatStylePlaceHolder;
+}
+
+#pragma mark - WeChatStylePlaceHolderDelegate Method
+
+- (void)emptyOverlayClicked:(id)sender {
+    [self.exploreTableView.mj_header beginRefreshing];
 }
 
 

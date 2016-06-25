@@ -4,4 +4,4 @@ dependencies: \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadOption+Private.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadOption.h \
   /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Storage/QNUploadManager.h \
-  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Qiniu/QiniuSDK/Recorder/QNRecorderDelegate.h
+  /Users/asiainfo/Desktop/HackathonRenaissance/HackathonClient/Pods/Headers/Private/Qiniu/QNRecorderDelegate.h
