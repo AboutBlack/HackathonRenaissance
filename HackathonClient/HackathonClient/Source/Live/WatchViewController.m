@@ -7,6 +7,7 @@
 //
 
 #import "WatchViewController.h"
+#import <Wilddog/Wilddog.h>
 
 @interface WatchViewController (){
     __block AgoraRtcStats *lastStat_;
@@ -68,6 +69,18 @@
     //    [self selectSpeakerButtons:YES];
     [self initAgoraKit];
     NSLog(@"self: %@", self);
+    
+    NSString *url = @"https://aboutblank-hackathonclient.wilddogio.com/goods";
+    Wilddog *goodsRef = [[Wilddog alloc] initWithUrl:url];
+    [goodsRef observeEventType:WEventTypeValue withBlock:^(WDataSnapshot *snapshot) {
+//        NSLog(@"商品发布：%@ -> %@", snapshot.key, snapshot.value);
+        NSDictionary *dic = (NSDictionary *)snapshot.value;
+        
+        for (NSString *key in dic.allKeys) {
+            NSLog(@"%@,%@\n", dic[key][@"name"], dic[key][@"price"]);
+        }
+        
+    }];
     
     //    [self.view setBackgroundColor:[UIColor blackColor]];
 }
