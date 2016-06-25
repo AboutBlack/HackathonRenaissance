@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HSDatePickerViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HappyDNS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,6 +64,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Wilddog.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XHSetting.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,7 +77,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07FE1A7B577A9753B3FB171B5B3FA1CE</key>
+		<key>153FDEE5C3B775D92D41DF9764DB9860</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>31350C6EF49F1333A7EC5402716B5560</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>380C0DBCE528048751B269C67A0696B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5330A63278370E6680920BA84F5C24E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +112,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7071FF2CE55DBDEA23C83B843021300A</key>
+		<key>55F1C45777467A7EDA644E6D95A83D86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67B24F2D8886922A7FDF1263D842DCE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,7 +127,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A208FF66A7303085C67DA380C303EA25</key>
+		<key>8F5E9BCEC8FD2032E1E4BAABACF8605C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A02C3687B87547217F8A1E229F5FCCC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,17 +142,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B1C9A895892411164B4A4CC505D197F1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B793764AA64D038A3F660C1AD0D86F8B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E6C0089C67646A89DCD1ED1D0BDE4410</key>
+		<key>E2F903264A57370F445EE2F39CCAC6C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

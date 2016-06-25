@@ -12,6 +12,7 @@
     __block AgoraRtcStats *lastStat_;
 }
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *speakerControlButtons;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *audioMuteControlButtons;
 @property (weak, nonatomic) IBOutlet UIButton *cameraControlButton;
@@ -24,9 +25,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *talkTimeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dataTrafficLabel;
 @property (weak, nonatomic) IBOutlet UILabel *alertLabel;
-
-@property (weak, nonatomic) IBOutlet UIButton *videoButton;
-@property (weak, nonatomic) IBOutlet UIButton *audioButton;
 
 @property (strong, nonatomic) AgoraRtcEngineKit *agoraKit;
 
@@ -361,21 +359,13 @@
         self.videoControlView.hidden = NO;
         self.audioControlView.hidden = YES;
         
-        // Video/Audio switch button
-        self.videoButton.selected = YES;
-        self.audioButton.selected = NO;
-        
         //
         self.videoMainView.hidden = NO;
     } else {
         // Control buttons
         self.videoControlView.hidden = YES;
         self.audioControlView.hidden = NO;
-        
-        // Video/Audio switch button
-        self.videoButton.selected = NO;
-        self.audioButton.selected = YES;
-        
+
         //
         self.videoMainView.hidden = YES;
     }
