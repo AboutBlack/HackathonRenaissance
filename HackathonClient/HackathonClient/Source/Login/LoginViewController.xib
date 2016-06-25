@@ -69,6 +69,9 @@
                         <constraint firstAttribute="width" constant="130" id="rnw-U3-dpK"/>
                     </constraints>
                     <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="loginButtonClick:" destination="-1" eventType="touchUpInside" id="7Jb-8l-a39"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09X-37-DN0">
                     <rect key="frame" x="209" y="348" width="130" height="44"/>
