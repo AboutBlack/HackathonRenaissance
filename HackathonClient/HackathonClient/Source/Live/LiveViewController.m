@@ -7,7 +7,16 @@
 //
 
 #import "LiveViewController.h"
+#import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
 
 @implementation LiveViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self.view setBackgroundColor:[UIColor blackColor]];
+}
+
+
 
 @end

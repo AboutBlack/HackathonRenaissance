@@ -9,6 +9,7 @@
 #import "CYLPlusButtonSubclass.h"
 #import "CYLTabBarController.h"
 //#import "CYLMineViewController.h"
+#import "LiveViewController.h"
 
 @interface CYLPlusButtonSubclass ()<UIActionSheetDelegate> {
     CGFloat _buttonImageHeight;
@@ -108,14 +109,13 @@
 
 - (void)clickPublish {
     CYLTabBarController *tabBarController = [self cyl_tabBarController];
-    UIViewController *viewController = tabBarController.selectedViewController;
     
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-                                                             delegate:nil
-                                                    cancelButtonTitle:@"取消"
-                                               destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
-    [actionSheet showInView:viewController.view];
+    LiveViewController *liveVC = [[LiveViewController alloc] init];
+    
+    [tabBarController presentViewController:liveVC animated:YES completion:^{
+        
+    }];
+    
 }
 
 #pragma mark - UIActionSheetDelegate
