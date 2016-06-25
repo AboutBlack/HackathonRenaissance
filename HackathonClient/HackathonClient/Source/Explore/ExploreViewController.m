@@ -11,7 +11,7 @@
 #import "JMessageModel.h"
 #import "Masonry.h"
 #import "UITableViewCell+HYBMasonryAutoCellHeight.h"
-
+#import "PublicViewController.h"
 #import "MJRefresh.h"
 #import "Mantle.h"
 #import "AFNetworking.h"
@@ -37,7 +37,14 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     
     [super viewDidLoad];
     
-    self.title = @"Explore";
+    self.title = @"探索";
+    
+    UIButton *publicButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 45, 44)];
+    [publicButton setTitle:@"发布" forState:UIControlStateNormal];
+    [publicButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [publicButton addTarget:self action:@selector(publicButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightBar = [[UIBarButtonItem alloc]initWithCustomView:publicButton];
+    self.navigationItem.rightBarButtonItem = rightBar;
     
     self.dataSource = [[NSMutableArray alloc] init];
     
@@ -226,5 +233,9 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 }
 
 
-
+-(void)publicButtonClick
+{
+    PublicViewController *public = [[PublicViewController alloc]init];
+    [self.navigationController pushViewController:public animated:YES];
+}
 @end
