@@ -110,7 +110,9 @@
 - (void)clickPublish {
     CYLTabBarController *tabBarController = [self cyl_tabBarController];
     
-    LiveViewController *liveVC = [[LiveViewController alloc] init];
+//    LiveViewController *liveVC = [[LiveViewController alloc] init];
+    
+    LiveViewController *liveVC = [[LiveViewController alloc] initWithNibName:@"LiveViewController" bundle:nil];
     
     [tabBarController presentViewController:liveVC animated:YES completion:^{
         

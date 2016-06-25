@@ -26,6 +26,8 @@
 		B16E37D11D1E891B00877D4A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D01D1E891B00877D4A /* VideoToolbox.framework */; };
 		B16E37D31D1E892300877D4A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D21D1E892300877D4A /* AudioToolbox.framework */; };
 		B16E37D51D1E8B1300877D4A /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */; };
+		B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37D61D1E97D300877D4A /* LiveViewController.xib */; };
+		B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,9 @@
 		B16E37D01D1E891B00877D4A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		B16E37D21D1E892300877D4A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		B16E37D61D1E97D300877D4A /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDChatCell.h; sourceTree = "<group>"; };
+		B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDChatCell.m; sourceTree = "<group>"; };
 		EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackathonClient/Pods-HackathonClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,9 +165,11 @@
 		B16E37AC1D1E781B00877D4A /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				B16E37D91D1E9AED00877D4A /* View */,
 				B16E37C11D1E88B900877D4A /* Agora */,
 				B16E37B11D1E784A00877D4A /* LiveViewController.h */,
 				B16E37B21D1E784A00877D4A /* LiveViewController.m */,
+				B16E37D61D1E97D300877D4A /* LiveViewController.xib */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -193,6 +200,15 @@
 				B16E37D41D1E8B1300877D4A /* AgoraRtcEngineKit.framework */,
 			);
 			path = Agora;
+			sourceTree = "<group>";
+		};
+		B16E37D91D1E9AED00877D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B16E37DA1D1E9AED00877D4A /* AGDChatCell.h */,
+				B16E37DB1D1E9AED00877D4A /* AGDChatCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D1BB84EECCBF4F8C22A74A92 /* Pods */ = {
@@ -265,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16E37A31D1E51E500877D4A /* LaunchScreen.storyboard in Resources */,
+				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +345,7 @@
 				B16E37B31D1E784A00877D4A /* LiveViewController.m in Sources */,
 				B16E37B01D1E783300877D4A /* ExploreViewController.m in Sources */,
 				B16E37BF1D1E7DE200877D4A /* CYLPlusButtonSubclass.m in Sources */,
+				B16E37DC1D1E9AED00877D4A /* AGDChatCell.m in Sources */,
 				B16E37981D1E51E500877D4A /* AppDelegate.m in Sources */,
 				B16E37B61D1E785800877D4A /* ProfileViewController.m in Sources */,
 				B16E37951D1E51E500877D4A /* main.m in Sources */,

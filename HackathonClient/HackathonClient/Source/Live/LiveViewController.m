@@ -9,13 +9,26 @@
 #import "LiveViewController.h"
 #import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
 
+@interface LiveViewController ()
+
+@end
+
 @implementation LiveViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor blackColor]];
+//    [self.view setBackgroundColor:[UIColor blackColor]];
 }
+
+- (IBAction)hangUp:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+    
+}
+
 
 
 
