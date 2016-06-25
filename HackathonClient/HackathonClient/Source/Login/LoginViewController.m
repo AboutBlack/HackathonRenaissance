@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 
 @interface LoginViewController ()
+- (IBAction)loginButtonClick:(UIButton *)sender;
 
 @end
 
@@ -22,5 +23,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)loginButtonClick:(UIButton *)sender {
+    if (self.block) {
+        self.block();
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
+    }
 }
 @end

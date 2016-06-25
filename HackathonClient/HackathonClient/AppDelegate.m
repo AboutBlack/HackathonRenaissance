@@ -14,7 +14,7 @@
 @interface AppDelegate ()
 
 @property (strong, nonatomic) CYLTabBarController *tabBarController;
-
+@property (strong,nonatomic) CYLTabBarControllerConfig *tabConfig;
 @end
 
 @implementation AppDelegate
@@ -27,12 +27,18 @@
     //来个注释
     
     BOOL userHasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:kHas_User_Login];
+    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
+    self.tabConfig = tabBarControllerConfig;
     if (userHasLogin) {
-        CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
         [self.window setRootViewController:tabBarControllerConfig.tabBarController];
     } else {
         // 登录页
         LoginViewController *login = [[LoginViewController alloc]init];
+        __weak AppDelegate *weakSelf = self;
+        [login setBlock:^(){
+            weakSelf.window.rootViewController = weakSelf.tabConfig.tabBarController;
+            
+        }];
         self.window.rootViewController = login;
     }
     

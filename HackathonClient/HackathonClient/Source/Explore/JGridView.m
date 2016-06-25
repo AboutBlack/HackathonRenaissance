@@ -46,7 +46,7 @@
 -(void)JGridView:(JGridView *)jggView DataSource:(NSArray *)dataSource completeBlock:(TapBlcok)tapBlock
 
 {
-    for (NSUInteger i=0; i<3; i++) {
+    for (NSUInteger i=0; i<1; i++) {
         
         UIImageView *iv = [UIImageView new];
         
@@ -87,10 +87,10 @@
 #pragma mark
 #pragma mark 配置图片的宽高
 +(CGFloat)imageWidth{
-    return ([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2)/3;
+    return ([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2);
 }
 +(CGFloat)imageHeight{
-    return ([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2)/3;
+    return ([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2)-50;
 }
 +(void)namedd{
     

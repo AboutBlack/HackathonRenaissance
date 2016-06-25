@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #define kHas_User_Login @"UserHasLogin"
+typedef void(^loginBlock)(void);
 @interface LoginViewController : UIViewController
-
+@property (nonatomic,copy)loginBlock block;
 @end

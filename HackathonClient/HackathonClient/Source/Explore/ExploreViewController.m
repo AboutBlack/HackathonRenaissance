@@ -13,6 +13,7 @@
 #import "UITableViewCell+HYBMasonryAutoCellHeight.h"
 
 
+
 static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 
 @interface ExploreViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -134,6 +135,20 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     return h;
 }
 
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    if (indexPath.row < [self.dataSource count]) {
+    
+        JMessageModel *model = [self.dataSource objectAtIndex:indexPath.row];
+        
+        
+        
+    }
+    
+    
+}
 
 
 
