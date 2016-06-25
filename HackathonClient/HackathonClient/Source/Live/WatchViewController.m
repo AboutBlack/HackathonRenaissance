@@ -125,7 +125,7 @@
 
 - (IBAction)didClickHungUpButton:(UIButton *)btn
 {
-    [self showAlertLabelWithString:NSLocalizedString(@"exiting", nil)];
+    [self showAlertLabelWithString:NSLocalizedString(@"正在退出……", nil)];
     __weak typeof(self) weakSelf = self;
     [self.agoraKit leaveChannel:^(AgoraRtcStats *stat) {
         // Myself leave status
@@ -154,7 +154,7 @@
 
 - (IBAction)hangUp:(id)sender {
     
-    [self showAlertLabelWithString:NSLocalizedString(@"exiting", nil)];
+    [self showAlertLabelWithString:NSLocalizedString(@"正在退出……", nil)];
     __weak typeof(self) weakSelf = self;
     [self.agoraKit leaveChannel:^(AgoraRtcStats *stat) {
         // Myself leave status
