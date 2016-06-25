@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AGDChatCell.h"
+#import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
 
-@interface LiveViewController : UIViewController
+@interface LiveViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, AgoraRtcEngineDelegate>
+
+@property(nonatomic,retain) NSDictionary *dictionary;
+
+@property (assign, nonatomic) AGDChatType chatType;
 
 @end
+
+static NSString * const AGDKeyChannelKey = @"Channel";
+static NSString * const AGDKeyChannelValue = @"222";
+
+static NSString * const AGDKeyVendorKey = @"VendorKey";
+static NSString * const AGDKeyVendorValue = @"27ab1f5329204bab8ea6863201f5fa6c";

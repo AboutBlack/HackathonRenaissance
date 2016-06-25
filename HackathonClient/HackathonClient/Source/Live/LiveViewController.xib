@@ -7,7 +7,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveViewController">
             <connections>
+                <outlet property="alertLabel" destination="WXI-MK-N9v" id="d92-7W-1uK"/>
+                <outlet property="audioButton" destination="1y7-IK-KfS" id="Yd6-ha-vxC"/>
+                <outlet property="audioControlView" destination="1b2-zC-RVm" id="nuI-eU-M1Z"/>
+                <outlet property="cameraControlButton" destination="Pns-7m-riS" id="9h4-0O-dDc"/>
+                <outlet property="collectionView" destination="47R-H2-BBS" id="5Kw-NS-zLQ"/>
+                <outlet property="dataTrafficLabel" destination="DIZ-SG-gib" id="cgR-Ex-1gC"/>
+                <outlet property="talkTimeLabel" destination="AhX-fB-Dgi" id="ROj-2T-nya"/>
+                <outlet property="videoButton" destination="y2N-Wy-DD1" id="vCK-Sw-mBX"/>
+                <outlet property="videoControlView" destination="LKf-3g-eCm" id="W2d-D6-8la"/>
+                <outlet property="videoMainView" destination="RXM-j7-Juc" id="nci-Wf-wZQ"/>
                 <outlet property="view" destination="rth-dT-mJF" id="WG8-yu-Bjn"/>
+                <outletCollection property="audioMuteControlButtons" destination="ZzA-2v-cEt" id="2df-xZ-5mp"/>
+                <outletCollection property="audioMuteControlButtons" destination="kDf-Yh-9u3" id="hJs-mq-k0c"/>
+                <outletCollection property="speakerControlButtons" destination="iAz-NG-GTz" id="aXf-gq-Mb4"/>
+                <outletCollection property="speakerControlButtons" destination="uY5-U8-1Sv" id="u99-Dn-0at"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -221,6 +235,10 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_bg_waiting" translatesAutoresizingMaskIntoConstraints="NO" id="7WB-79-HQa">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
                         </imageView>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="431" translatesAutoresizingMaskIntoConstraints="NO" id="RXM-j7-Juc" userLabel="video">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXI-MK-N9v">
                             <rect key="frame" x="0.0" y="160" width="600" height="0.0"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -233,13 +251,9 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="1dX-Xu-RGA"/>
+                                <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="15e-5p-p99"/>
                             </connections>
                         </button>
-                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="431" translatesAutoresizingMaskIntoConstraints="NO" id="RXM-j7-Juc" userLabel="video">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="475"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        </view>
                     </subviews>
                     <constraints>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" id="46w-aI-hJ4"/>
@@ -376,6 +390,10 @@
                             </connections>
                         </collectionViewCell>
                     </cells>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vEf-i6-i8F"/>
+                        <outlet property="delegate" destination="-1" id="fZE-pa-7My"/>
+                    </connections>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-3o-lOE" userLabel="audio/video switch">
                     <rect key="frame" x="0.0" y="552" width="600" height="48"/>
