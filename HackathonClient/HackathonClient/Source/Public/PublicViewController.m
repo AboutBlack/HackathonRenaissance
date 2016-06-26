@@ -148,6 +148,8 @@
         [self.navigationController popViewControllerAnimated:NO];
         [SVProgressHUD showSuccessWithStatus:@"添加成功"];
         
+        [[NSNotificationCenter defaultCenter]postNotificationName:kShouldRefreshData object:nil];
+        
     } failure:^(NSURLSessionTask *operation, NSError *error) {
         NSLog(@"Error: %@", error);
         [SVProgressHUD dismiss];
