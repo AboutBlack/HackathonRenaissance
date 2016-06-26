@@ -12,6 +12,8 @@
 
 @interface WatchViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, AgoraRtcEngineDelegate>
 
+@property (nonatomic, assign) BOOL isFirstPresent;
+
 @property (nonatomic, assign) NSUInteger userid;
 @property (nonatomic, assign) NSUInteger roomid;
 @property (nonatomic, assign) NSUInteger hostid;

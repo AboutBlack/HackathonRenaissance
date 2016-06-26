@@ -96,7 +96,10 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [self joinChannel];
+    if (self.isFirstPresent) {
+        [self joinChannel];
+        self.isFirstPresent = NO;
+    }
     
     [self setNeedsStatusBarAppearanceUpdate];
 }

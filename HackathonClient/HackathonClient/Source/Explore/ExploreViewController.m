@@ -232,6 +232,7 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         
         
         WatchViewController *watch = [[WatchViewController alloc] init];
+        watch.isFirstPresent = YES;
         [self presentViewController:watch animated:YES completion:nil];
         
 
