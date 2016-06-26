@@ -1,5 +1,5 @@
 //
-//  BuyViewController.h
+//  StepTableViewCell.h
 //  HackathonClient
 //
 //  Created by 孙恺 on 16/6/26.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BuyViewController : UIViewController
-
-@property (nonatomic, assign) NSInteger price;
+@interface StepTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *payImageView;
 
 @end
