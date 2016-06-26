@@ -207,6 +207,12 @@
 }
 
 - (void)configCellWithModel:(JMessageModel *)model indexPath:(NSIndexPath *)indexPath {
+    
+    if(self.indexPath && self.indexPath.row == indexPath.row ){
+        
+        return;
+    }
+    
     self.indexPath = indexPath;
     
     self.nameLabel.text = model.user;
