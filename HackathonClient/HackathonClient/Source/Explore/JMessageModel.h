@@ -35,5 +35,7 @@
 
 @property(nonatomic,strong)NSArray<NSString *> *mail;
 
+@property(nonatomic,strong)NSString *user_img;
+
 
 @end

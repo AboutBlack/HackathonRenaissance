@@ -222,9 +222,9 @@
     self.timeLibel.text = [NSString stringWithFormat:@"直播时间:%@",model.time];;
     
     
-    NSString *pho = [[NSUserDefaults standardUserDefaults]stringForKey:kUser_photo];
+    //NSString *pho = [[NSUserDefaults standardUserDefaults]stringForKey:kUser_photo];
     
-    [self.headImageView sd_setImageWithURL:[NSURL URLWithString:pho] placeholderImage:[UIImage imageNamed:@"placeholder"]];
+    [self.headImageView sd_setImageWithURL:[NSURL URLWithString:model.user_img] placeholderImage:[UIImage imageNamed:@"placeholder"]];
     
     
     

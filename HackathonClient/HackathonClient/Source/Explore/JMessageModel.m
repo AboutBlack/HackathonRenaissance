@@ -23,7 +23,8 @@
              @"status":@"status",
              @"time":@"time",
              @"user":@"user",
-             @"mail":@"mail"
+             @"mail":@"mail",
+             @"user_img":@"user_img"
              };
 }
 
