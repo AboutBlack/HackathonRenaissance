@@ -152,17 +152,19 @@
         
         self.bgImageView = [UIImageView new];
         [self.contentView addSubview:self.bgImageView];
+        
+        self.backgroundColor = [UIColor redColor];
+        
         [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.descLabel);
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
             make.height.mas_equalTo(180);
-            make.width.mas_equalTo(230);
+            make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size));
         }];
         
         //([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2);
         self.scrollView = [UIScrollView new];
-        self.scrollView.backgroundColor = [UIColor grayColor];
-        self.scrollView.alpha = 0.8;
+       
         [self.contentView addSubview:self.scrollView];
         
         [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -267,7 +269,7 @@
         make.left.mas_equalTo(self.descLabel);
         make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
         make.height.mas_equalTo(180);
-        make.width.mas_equalTo(230);
+    make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size));
     }];
     
     //创建ScrollView子视图容器视图
@@ -285,6 +287,8 @@
     //向container添加多个View
     JCardView *lastView = nil;
     for(int i = 0;i <count;++i ){
+        self.scrollView.backgroundColor = [UIColor grayColor];
+        self.scrollView.alpha = 0.8;
         //创建一个View
         JCardView *subView = [[JCardView alloc] initWithFrame:CGRectMake(0, 0, 50, 80)];
         

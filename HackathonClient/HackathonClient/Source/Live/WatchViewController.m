@@ -9,8 +9,9 @@
 #import "WatchViewController.h"
 #import <Wilddog/Wilddog.h>
 #import "TLTagsControl.h"
+#import "BuyViewController.h"
 
-@interface WatchViewController (){
+@interface WatchViewController ()<TLTagsControlDelegate>{
     __block AgoraRtcStats *lastStat_;
 }
 
@@ -57,6 +58,7 @@
     
     self.tagsControl.mode = TLTagsControlModeList;
     [self.tagsControl setBackgroundColor:[UIColor clearColor]];
+    self.tagsControl.tapDelegate = self;
     
     self.dictionary = @{AGDKeyChannelKey: AGDKeyChannelValue,
                         AGDKeyVendorKey: AGDKeyVendorValue};
@@ -97,6 +99,21 @@
     [self joinChannel];
     
     [self setNeedsStatusBarAppearanceUpdate];
+}
+
+#pragma mark - Delegate 
+
+- (void)tagsControl:(TLTagsControl *)tagsControl deleteAtIndex:(NSInteger)index {
+    
+}
+
+- (void)tagsControl:(TLTagsControl *)tagsControl tappedAtIndex:(NSInteger)index {
+    BuyViewController *buyVC = [[BuyViewController alloc] initWithNibName:@"BuyViewController" bundle:nil];
+    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:buyVC];
+    
+    [self presentViewController:naviVC animated:YES completion:^{
+        
+    }];
 }
 
 #pragma mark - Action

@@ -31,6 +31,8 @@
 		B16E37E11D1EAB1600877D4A /* WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37DF1D1EAB1600877D4A /* WatchViewController.m */; };
 		B16E37E21D1EAB1600877D4A /* WatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37E01D1EAB1600877D4A /* WatchViewController.xib */; };
 		B16E37E71D1F3F4600877D4A /* TLTagsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37E61D1F3F4600877D4A /* TLTagsControl.m */; };
+		B16E37EB1D1F518200877D4A /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37E91D1F518200877D4A /* BuyViewController.m */; };
+		B16E37EC1D1F518200877D4A /* BuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37EA1D1F518200877D4A /* BuyViewController.xib */; };
 		C54B5BDD1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */; };
 		C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE01D1EA67D005B8273 /* JGridView.m */; };
@@ -84,6 +86,9 @@
 		B16E37E01D1EAB1600877D4A /* WatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatchViewController.xib; sourceTree = "<group>"; };
 		B16E37E51D1F3F4600877D4A /* TLTagsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTagsControl.h; sourceTree = "<group>"; };
 		B16E37E61D1F3F4600877D4A /* TLTagsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTagsControl.m; sourceTree = "<group>"; };
+		B16E37E81D1F518200877D4A /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		B16E37E91D1F518200877D4A /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		B16E37EA1D1F518200877D4A /* BuyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyViewController.xib; sourceTree = "<group>"; };
 		C54B5BD91D1EA64C005B8273 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
 		C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		C54B5BDB1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
@@ -236,6 +241,9 @@
 				B16E37DE1D1EAB1600877D4A /* WatchViewController.h */,
 				B16E37DF1D1EAB1600877D4A /* WatchViewController.m */,
 				B16E37E01D1EAB1600877D4A /* WatchViewController.xib */,
+				B16E37E81D1F518200877D4A /* BuyViewController.h */,
+				B16E37E91D1F518200877D4A /* BuyViewController.m */,
+				B16E37EA1D1F518200877D4A /* BuyViewController.xib */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -426,6 +434,7 @@
 				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
 				B16E37E21D1EAB1600877D4A /* WatchViewController.xib in Resources */,
+				B16E37EC1D1F518200877D4A /* BuyViewController.xib in Resources */,
 				C54B5BF71D1EE1A0005B8273 /* PublicViewController.xib in Resources */,
 				C9B0C1BD1D1EDA3900E2C31D /* Settings.plist in Resources */,
 			);
@@ -504,6 +513,7 @@
 				C54B5BE71D1EA67D005B8273 /* JMessageModel.m in Sources */,
 				B16E37C01D1E7DE200877D4A /* CYLTabBarControllerConfig.m in Sources */,
 				B16E37B31D1E784A00877D4A /* LiveViewController.m in Sources */,
+				B16E37EB1D1F518200877D4A /* BuyViewController.m in Sources */,
 				B16E37B01D1E783300877D4A /* ExploreViewController.m in Sources */,
 				C54B5BFB1D1F2BFE005B8273 /* NSString+Hack.m in Sources */,
 				C54B5BEC1D1EA697005B8273 /* LoginViewController.m in Sources */,
