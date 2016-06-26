@@ -255,6 +255,7 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 -(void)publicButtonClick
 {
     PublicViewController *public = [[PublicViewController alloc]init];
+    [self.navigationController.tabBarController.tabBar setHidden:YES];
     [self.navigationController pushViewController:public animated:YES];
 }
 
