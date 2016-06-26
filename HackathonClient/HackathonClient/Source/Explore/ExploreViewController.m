@@ -104,6 +104,8 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
             JMessageModel *model = [MTLJSONAdapter modelOfClass:[JMessageModel class] fromJSONDictionary:dic error:nil];
             
             if (model) {
+                model.shouldUpdateCache = YES;
+
                 [self.dataSource addObject:model];
             }
         }
@@ -211,10 +213,10 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         JMessageCell *cell = (JMessageCell *)sourceCell;
         [cell configCellWithModel:model indexPath:indexPath];
     } cache:^NSDictionary *{
-        NSDictionary *cache = @{kHYBCacheUniqueKey : @"123123",
+        NSDictionary *cache = @{kHYBCacheUniqueKey : model.time,
                                 kHYBCacheStateKey  : @"",
-                                kHYBRecalculateForStateKey : @(NO)};
-        //model.shouldUpdateCache = NO;
+                                kHYBRecalculateForStateKey : @(model.shouldUpdateCache)};
+        model.shouldUpdateCache = NO;
         return cache;
     }];
     return h;

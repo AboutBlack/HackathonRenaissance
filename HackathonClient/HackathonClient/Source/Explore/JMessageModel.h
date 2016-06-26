@@ -37,5 +37,7 @@
 
 @property(nonatomic,strong)NSString *user_img;
 
+@property(nonatomic,assign) BOOL shouldUpdateCache;
+
 
 @end
