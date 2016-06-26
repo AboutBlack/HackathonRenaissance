@@ -654,7 +654,7 @@
 			baseConfigurationReference = EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: wei dongfeng (NBH325R68Q)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.demo.Kai-Sun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "43e7e5b3-aacc-4f36-b25b-26749481d06d";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -674,7 +674,7 @@
 			baseConfigurationReference = 1D6C2C3CD8BB9A4DB7155ED2 /* Pods-HackathonClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -685,7 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.demo.Kai-Sun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "43e7e5b3-aacc-4f36-b25b-26749481d06d";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
