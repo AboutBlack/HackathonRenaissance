@@ -17,13 +17,13 @@
         // Initialization code
         self.backgroundColor = [UIColor clearColor];
         
-        self.loginButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([[UIScreen mainScreen] bounds]), 44)];
-        [self.loginButton addTarget:self action:@selector(loginButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
-        self.loginButton.titleLabel.font = [UIFont boldSystemFontOfSize:14];
-        [self.loginButton setTitle:@"Login now" forState:UIControlStateNormal];
-        [self.loginButton setBackgroundColor:[UIColor redColor]];
-        [self.loginButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        [self addSubview:self.loginButton];
+//        self.loginButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([[UIScreen mainScreen] bounds]), 44)];
+//        [self.loginButton addTarget:self action:@selector(loginButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+//        self.loginButton.titleLabel.font = [UIFont boldSystemFontOfSize:14];
+//        [self.loginButton setTitle:@"Login now" forState:UIControlStateNormal];
+//        [self.loginButton setBackgroundColor:[UIColor redColor]];
+//        [self.loginButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//        [self addSubview:self.loginButton];
     }
     return self;
 }

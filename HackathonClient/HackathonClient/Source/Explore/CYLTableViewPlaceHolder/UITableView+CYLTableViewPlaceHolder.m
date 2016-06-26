@@ -80,7 +80,7 @@
                 }
             }
             self.scrollEnabled = scrollEnabled;
-            if ([self respondsToSelector:@selector(makePlaceHolderView)]) {
+            if ([self respondsToSelector:@selector(makePlaceHolderView)])  {
                 self.placeHolderView = [self performSelector:@selector(makePlaceHolderView)];
             } else if ( [self.delegate respondsToSelector:@selector(makePlaceHolderView)]) {
                 self.placeHolderView = [self.delegate performSelector:@selector(makePlaceHolderView)];

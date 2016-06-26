@@ -17,7 +17,7 @@
 #import "AFNetworking.h"
 #import "CYLTableViewPlaceHolder.h"
 #import "WeChatStylePlaceHolder.h"
-
+#import "Header.h"
 #import "WatchViewController.h"
 
 
@@ -71,6 +71,13 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     
     // Enter the refresh status immediately
     [self.exploreTableView.mj_header beginRefreshing];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(shouldRefreshData) name:kShouldRefreshData object:nil];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 
 #pragma mark --Action
@@ -249,5 +256,10 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 {
     PublicViewController *public = [[PublicViewController alloc]init];
     [self.navigationController pushViewController:public animated:YES];
+}
+
+- (void)shouldRefreshData
+{
+    [self.exploreTableView.mj_header beginRefreshing];
 }
 @end
