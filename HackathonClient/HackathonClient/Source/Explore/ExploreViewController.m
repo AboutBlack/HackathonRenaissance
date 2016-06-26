@@ -212,24 +212,11 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     
         JMessageModel *model = [self.dataSource objectAtIndex:indexPath.row];
         
-        switch ([model.status integerValue]) {
-            case 0:{
-                
-                break;
-            }
-            case 1:{
+        
                 WatchViewController *watch = [[WatchViewController alloc] init];
                 [self presentViewController:watch animated:YES completion:nil];
                 break;
-            }
-                
-            case 3:{
-                
-                break;
-            }
-                
-            default:
-                break;
+        
         }
         
         NSLog(@"点击====");
