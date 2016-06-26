@@ -220,6 +220,7 @@
     [self.agoraKit joinChannelByKey:nil channelName:self.channel info:nil uid:self.userid joinSuccess:^(NSString *channel, NSUInteger uid, NSInteger elapsed) {
         
         [weakSelf.agoraKit setEnableSpeakerphone:NO];
+        [weakSelf.agoraKit muteLocalAudioStream:YES];
         
         [UIApplication sharedApplication].idleTimerDisabled = YES;
         
