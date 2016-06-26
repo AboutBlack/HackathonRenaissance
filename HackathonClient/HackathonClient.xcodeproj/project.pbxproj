@@ -418,7 +418,6 @@
 				TargetAttributes = {
 					B16E378F1D1E51E500877D4A = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6278Q96CU6;
 					};
 				};
 			};
@@ -585,7 +584,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei dongfeng (NBH325R68Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wei dongfeng (NBH325R68Q)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

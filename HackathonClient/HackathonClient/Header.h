@@ -11,6 +11,8 @@
 
 #define kUser_Name  @"user_Name"
 
+#define kUser_photo @"photo"
+
 #define kShouldRefreshData  @"kShouldRefreshButton"
 
 #endif /* Header_h */

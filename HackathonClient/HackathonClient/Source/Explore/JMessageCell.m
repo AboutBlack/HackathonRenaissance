@@ -12,6 +12,8 @@
 #import "UIImageView+WebCache.h"
 #import "UITableViewCell+HYBMasonryAutoCellHeight.h"
 
+#import "Header.h"
+
 
 
 
@@ -219,7 +221,15 @@
     self.descLabel.text = model.live_desc;
     self.timeLibel.text = [NSString stringWithFormat:@"直播时间:%@",model.time];;
     
-    [self.headImageView sd_setImageWithURL:[NSURL URLWithString:model.live_img] placeholderImage:[UIImage imageNamed:@"placeholder"]];
+    
+    NSString *pho = [[NSUserDefaults standardUserDefaults]stringForKey:kUser_photo];
+    
+    [self.headImageView sd_setImageWithURL:[NSURL URLWithString:pho] placeholderImage:[UIImage imageNamed:@"placeholder"]];
+    
+    
+    
+    
+    
     self.messageModel = model;
     NSMutableParagraphStyle *muStyle = [[NSMutableParagraphStyle alloc]init];
     muStyle.lineSpacing = 2;

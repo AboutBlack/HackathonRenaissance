@@ -53,10 +53,14 @@
         // 成功;
         NSDictionary *dict = (NSDictionary *)responseObject;
         NSString *status = dict[@"status"];
+        
+        NSDictionary *data = dict[@"data"];
         if (status.integerValue == 0) {
             [[NSUserDefaults standardUserDefaults]setBool:YES forKey:kHas_User_Login];
             [[NSUserDefaults standardUserDefaults]setObject:userName forKey:kUser_Name];
             [[NSUserDefaults standardUserDefaults]synchronize];
+            
+            [[NSUserDefaults standardUserDefaults]setObject:data[@"img"] forKey:kUser_photo];
             
             if (weakSelf.block) {
                 weakSelf.block();
