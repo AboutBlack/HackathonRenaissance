@@ -153,7 +153,7 @@
         self.bgImageView = [UIImageView new];
         [self.contentView addSubview:self.bgImageView];
         
-        self.backgroundColor = [UIColor redColor];
+       // self.backgroundColor = [UIColor redColor];
         
         self.backgroundView.contentMode = UIViewContentModeScaleAspectFit;
         

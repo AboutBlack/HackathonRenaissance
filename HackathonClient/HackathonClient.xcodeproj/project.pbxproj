@@ -33,6 +33,8 @@
 		B16E37E71D1F3F4600877D4A /* TLTagsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37E61D1F3F4600877D4A /* TLTagsControl.m */; };
 		B16E37EB1D1F518200877D4A /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37E91D1F518200877D4A /* BuyViewController.m */; };
 		B16E37EC1D1F518200877D4A /* BuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37EA1D1F518200877D4A /* BuyViewController.xib */; };
+		B16E37F41D1F5DA700877D4A /* StepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E37F21D1F5DA700877D4A /* StepTableViewCell.m */; };
+		B16E37F51D1F5DA700877D4A /* StepTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B16E37F31D1F5DA700877D4A /* StepTableViewCell.xib */; };
 		C54B5BDD1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */; };
 		C54B5BDE1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BDC1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 		C54B5BE51D1EA67D005B8273 /* JGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B5BE01D1EA67D005B8273 /* JGridView.m */; };
@@ -89,6 +91,9 @@
 		B16E37E81D1F518200877D4A /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
 		B16E37E91D1F518200877D4A /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
 		B16E37EA1D1F518200877D4A /* BuyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyViewController.xib; sourceTree = "<group>"; };
+		B16E37F11D1F5DA700877D4A /* StepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTableViewCell.h; sourceTree = "<group>"; };
+		B16E37F21D1F5DA700877D4A /* StepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepTableViewCell.m; sourceTree = "<group>"; };
+		B16E37F31D1F5DA700877D4A /* StepTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepTableViewCell.xib; sourceTree = "<group>"; };
 		C54B5BD91D1EA64C005B8273 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
 		C54B5BDA1D1EA64C005B8273 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		C54B5BDB1D1EA64C005B8273 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
@@ -232,6 +237,7 @@
 		B16E37AC1D1E781B00877D4A /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				B16E37F01D1F5D5E00877D4A /* Cells */,
 				B16E37E41D1F3F4600877D4A /* TLTagsContol */,
 				B16E37D91D1E9AED00877D4A /* View */,
 				B16E37C11D1E88B900877D4A /* Agora */,
@@ -295,6 +301,16 @@
 				B16E37E61D1F3F4600877D4A /* TLTagsControl.m */,
 			);
 			path = TLTagsContol;
+			sourceTree = "<group>";
+		};
+		B16E37F01D1F5D5E00877D4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B16E37F11D1F5DA700877D4A /* StepTableViewCell.h */,
+				B16E37F21D1F5DA700877D4A /* StepTableViewCell.m */,
+				B16E37F31D1F5DA700877D4A /* StepTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C54B5BD81D1EA64C005B8273 /* HYBMasonryAutoCellHeight */ = {
@@ -402,7 +418,7 @@
 				TargetAttributes = {
 					B16E378F1D1E51E500877D4A = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3RNTGQ784M;
+						DevelopmentTeam = 6278Q96CU6;
 					};
 				};
 			};
@@ -430,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54B5BED1D1EA697005B8273 /* LoginViewController.xib in Resources */,
+				B16E37F51D1F5DA700877D4A /* StepTableViewCell.xib in Resources */,
 				B16E37A31D1E51E500877D4A /* LaunchScreen.storyboard in Resources */,
 				B16E37D71D1E97D300877D4A /* LiveViewController.xib in Resources */,
 				B16E37A01D1E51E500877D4A /* Assets.xcassets in Resources */,
@@ -532,6 +549,7 @@
 				B16E37E71D1F3F4600877D4A /* TLTagsControl.m in Sources */,
 				B16E37951D1E51E500877D4A /* main.m in Sources */,
 				C9B0C1B81D1EC3A300E2C31D /* WeChatStylePlaceHolder.m in Sources */,
+				B16E37F41D1F5DA700877D4A /* StepTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +654,7 @@
 			baseConfigurationReference = EAFDB3E5B1B9A2EF09BD9FB8 /* Pods-HackathonClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei dongfeng (NBH325R68Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -647,7 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.demo.Kai-Sun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "43e7e5b3-aacc-4f36-b25b-26749481d06d";
 			};
 			name = Debug;
 		};
@@ -656,7 +674,7 @@
 			baseConfigurationReference = 1D6C2C3CD8BB9A4DB7155ED2 /* Pods-HackathonClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,7 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.demo.Kai-Sun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "43e7e5b3-aacc-4f36-b25b-26749481d06d";
 			};
 			name = Release;
 		};
