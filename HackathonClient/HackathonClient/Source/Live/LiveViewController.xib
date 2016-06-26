@@ -13,6 +13,7 @@
                 <outlet property="cameraControlButton" destination="Pns-7m-riS" id="9h4-0O-dDc"/>
                 <outlet property="dataTrafficLabel" destination="DIZ-SG-gib" id="cgR-Ex-1gC"/>
                 <outlet property="priceField" destination="xO2-i9-lXp" id="kGe-wH-9CE"/>
+                <outlet property="tagsControl" destination="hK8-jP-VNl" id="AKz-7c-iYU"/>
                 <outlet property="talkTimeLabel" destination="AhX-fB-Dgi" id="ROj-2T-nya"/>
                 <outlet property="titleField" destination="rHo-g2-bKq" id="CoQ-nx-nz7"/>
                 <outlet property="videoControlView" destination="LKf-3g-eCm" id="W2d-D6-8la"/>
@@ -254,25 +255,35 @@
                                 <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="15e-5p-p99"/>
                             </connections>
                         </button>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hK8-jP-VNl" customClass="TLTagsControl">
+                            <rect key="frame" x="8" y="8" width="584" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="LJI-L5-ohR"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="fZr-Uj-9KC"/>
+                            </constraints>
+                        </scrollView>
                     </subviews>
                     <constraints>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" id="46w-aI-hJ4"/>
+                        <constraint firstAttribute="trailing" secondItem="hK8-jP-VNl" secondAttribute="trailing" constant="8" id="6xN-lW-IpT"/>
                         <constraint firstAttribute="bottom" secondItem="BTX-Gu-9fW" secondAttribute="bottom" constant="100" id="Ahn-Ql-i27"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="top" id="B9N-Lw-ff5"/>
                         <constraint firstAttribute="bottom" secondItem="7WB-79-HQa" secondAttribute="bottom" id="FmR-v9-D5x"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="RXM-j7-Juc" secondAttribute="leading" id="IjW-Sp-gIv"/>
                         <constraint firstItem="WXI-MK-N9v" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="top" priority="250" constant="160" id="Rvn-fx-Dud"/>
                         <constraint firstItem="BTX-Gu-9fW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WXI-MK-N9v" secondAttribute="bottom" constant="5" id="T38-gy-v2V"/>
+                        <constraint firstItem="hK8-jP-VNl" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="top" constant="8" id="aoA-zt-wOT"/>
                         <constraint firstAttribute="centerX" secondItem="BTX-Gu-9fW" secondAttribute="centerX" id="fK1-Ir-grr"/>
                         <constraint firstAttribute="trailing" secondItem="WXI-MK-N9v" secondAttribute="trailing" id="lni-xr-PVQ"/>
                         <constraint firstAttribute="trailing" secondItem="7WB-79-HQa" secondAttribute="trailing" id="lqS-Qb-jat"/>
+                        <constraint firstItem="hK8-jP-VNl" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" constant="8" id="qoQ-mm-eTO"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="top" secondItem="RXM-j7-Juc" secondAttribute="top" id="rQY-Ji-6Ul"/>
                         <constraint firstItem="WXI-MK-N9v" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" id="th4-wT-CLJ"/>
                         <constraint firstAttribute="bottom" secondItem="RXM-j7-Juc" secondAttribute="bottom" id="wKA-hM-GXK"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4q-g4-Pau" userLabel="status">
-                    <rect key="frame" x="274" y="89" width="52" height="40"/>
+                    <rect key="frame" x="274" y="125" width="52" height="40"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_room_bg_talk_time" translatesAutoresizingMaskIntoConstraints="NO" id="d3d-Hx-wLf">
                             <rect key="frame" x="0.0" y="0.0" width="52" height="40"/>
@@ -363,7 +374,7 @@
                 <constraint firstItem="Q3m-cJ-4Kv" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="HIn-IT-Gxu"/>
                 <constraint firstItem="Q3m-cJ-4Kv" firstAttribute="top" secondItem="c1M-qs-UGa" secondAttribute="bottom" id="Qhy-uy-V3z"/>
                 <constraint firstAttribute="bottom" secondItem="Hax-uM-Tgk" secondAttribute="bottom" id="SYO-DF-G1D"/>
-                <constraint firstItem="n4q-g4-Pau" firstAttribute="top" secondItem="c1M-qs-UGa" secondAttribute="bottom" constant="12" id="Tgf-JL-851"/>
+                <constraint firstItem="n4q-g4-Pau" firstAttribute="top" secondItem="c1M-qs-UGa" secondAttribute="bottom" constant="48" id="Tgf-JL-851"/>
                 <constraint firstItem="Hax-uM-Tgk" firstAttribute="leading" secondItem="rth-dT-mJF" secondAttribute="leading" id="WBM-ZN-O1x"/>
                 <constraint firstAttribute="trailing" secondItem="Hax-uM-Tgk" secondAttribute="trailing" id="YAT-cz-eAr"/>
                 <constraint firstAttribute="trailing" secondItem="c1M-qs-UGa" secondAttribute="trailing" id="chO-1V-nmR"/>

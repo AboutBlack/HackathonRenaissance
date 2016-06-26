@@ -8,11 +8,13 @@
 
 #import "WatchViewController.h"
 #import <Wilddog/Wilddog.h>
+#import "TLTagsControl.h"
 
 @interface WatchViewController (){
     __block AgoraRtcStats *lastStat_;
 }
 
+@property (weak, nonatomic) IBOutlet TLTagsControl *tagsControl;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *speakerControlButtons;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *audioMuteControlButtons;
 @property (weak, nonatomic) IBOutlet UIButton *cameraControlButton;
@@ -53,6 +55,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tagsControl.mode = TLTagsControlModeList;
+    [self.tagsControl setBackgroundColor:[UIColor clearColor]];
+    
     self.dictionary = @{AGDKeyChannelKey: AGDKeyChannelValue,
                         AGDKeyVendorKey: AGDKeyVendorValue};
     
@@ -78,6 +83,7 @@
         
         for (NSString *key in dic.allKeys) {
             NSLog(@"%@,%@\n", dic[key][@"name"], dic[key][@"price"]);
+            [self.tagsControl addTag:dic[key][@"name"]];
         }
         
     }];
