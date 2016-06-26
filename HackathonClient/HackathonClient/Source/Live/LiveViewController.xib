@@ -258,7 +258,7 @@
                                 <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="15e-5p-p99"/>
                             </connections>
                         </button>
-                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hK8-jP-VNl" customClass="TLTagsControl">
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hK8-jP-VNl" customClass="TLTagsControl">
                             <rect key="frame" x="8" y="8" width="584" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="44" id="LJI-L5-ohR"/>

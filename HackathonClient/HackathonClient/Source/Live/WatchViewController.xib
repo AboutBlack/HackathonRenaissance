@@ -304,7 +304,7 @@
                                 <action selector="hangUp:" destination="-1" eventType="touchUpInside" id="DGd-Ul-9q8"/>
                             </connections>
                         </button>
-                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="To0-Nl-7Jz" customClass="TLTagsControl">
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="To0-Nl-7Jz" customClass="TLTagsControl">
                             <rect key="frame" x="8" y="8" width="584" height="44"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="C4O-CW-nTr"/>
