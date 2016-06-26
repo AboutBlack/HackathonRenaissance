@@ -234,7 +234,7 @@
 
 - (IBAction)didClickSwitchButton:(UIButton *)btn
 {
-    btn.selected = !btn.selected;
+//    btn.selected = !btn.selected;
     [self.agoraKit switchCamera];
 }
 

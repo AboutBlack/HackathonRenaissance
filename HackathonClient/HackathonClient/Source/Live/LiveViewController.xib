@@ -160,6 +160,9 @@
                                     </state>
                                     <state key="selected" image="switch"/>
                                     <state key="highlighted" image="ic_room_button_change_pressed"/>
+                                    <connections>
+                                        <action selector="didClickSwitchButton:" destination="-1" eventType="touchUpInside" id="cNx-Dm-n39"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切换摄像头" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdn-El-FZ9">
                                     <rect key="frame" x="503" y="42" width="45" height="11"/>
@@ -262,12 +265,21 @@
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="fZr-Uj-9KC"/>
                             </constraints>
                         </scrollView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="custom" translatesAutoresizingMaskIntoConstraints="NO" id="6tn-34-TcG">
+                            <rect key="frame" x="8" y="351" width="100" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="pJM-qG-dRq"/>
+                                <constraint firstAttribute="width" constant="100" id="vs1-dY-4a5"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
                     <constraints>
+                        <constraint firstAttribute="bottom" secondItem="6tn-34-TcG" secondAttribute="bottom" constant="8" id="22j-9e-eeO"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" id="46w-aI-hJ4"/>
                         <constraint firstAttribute="trailing" secondItem="hK8-jP-VNl" secondAttribute="trailing" constant="8" id="6xN-lW-IpT"/>
                         <constraint firstAttribute="bottom" secondItem="BTX-Gu-9fW" secondAttribute="bottom" constant="100" id="Ahn-Ql-i27"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="top" id="B9N-Lw-ff5"/>
+                        <constraint firstItem="6tn-34-TcG" firstAttribute="leading" secondItem="Q3m-cJ-4Kv" secondAttribute="leading" constant="8" id="BNZ-48-8EG"/>
                         <constraint firstAttribute="bottom" secondItem="7WB-79-HQa" secondAttribute="bottom" id="FmR-v9-D5x"/>
                         <constraint firstItem="7WB-79-HQa" firstAttribute="leading" secondItem="RXM-j7-Juc" secondAttribute="leading" id="IjW-Sp-gIv"/>
                         <constraint firstItem="WXI-MK-N9v" firstAttribute="top" secondItem="Q3m-cJ-4Kv" secondAttribute="top" priority="250" constant="160" id="Rvn-fx-Dud"/>
@@ -384,6 +396,7 @@
     </objects>
     <resources>
         <image name="camera" width="35" height="34"/>
+        <image name="custom" width="100" height="120"/>
         <image name="ic_room_bg_rectangle" width="320" height="57"/>
         <image name="ic_room_bg_talk_time" width="40" height="35"/>
         <image name="ic_room_bg_waiting" width="320" height="400"/>
