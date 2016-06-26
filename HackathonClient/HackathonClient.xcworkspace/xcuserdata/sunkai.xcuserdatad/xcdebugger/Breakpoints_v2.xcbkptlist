@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HackathonClient/Source/Live/WatchViewController.m"
-            timestampString = "488593277.083321"
+            timestampString = "488608889.034302"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
             landmarkName = "-joinChannel"
             landmarkType = "5">
          </BreakpointContent>
