@@ -42,6 +42,9 @@
 
     
     [self.submitButtonClick addTarget:self action:@selector(submitButtonDidClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(closeKeyBoard)];
+    [self.view addGestureRecognizer:tap];
 }
 
 - (IBAction)uploadImageButtonClick:(UIButton *)sender {
@@ -110,6 +113,8 @@
     HSDatePickerViewController *hsdpvc = [[HSDatePickerViewController alloc] init];
     [hsdpvc setDelegate:self];
     [self presentViewController:hsdpvc animated:YES completion:nil];
+    
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 
 - (void)hsDatePickerPickedDate:(NSDate *)date
@@ -126,10 +131,12 @@
 
 - (void)submitButtonDidClick
 {
+    [self closeKeyBoard];
     NSString *title = self.titleTextField.text;
     NSString *author = [[NSUserDefaults standardUserDefaults]objectForKey:kUser_Name];
     NSArray *imageUrlArray = self.imageArray;
     NSTimeInterval timeInterval = [self.selectDate timeIntervalSince1970];
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
     
     if ([NSString isEmptyString:title]|| timeInterval == 0 || imageUrlArray.count == 0) {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"警告" message:@"您的信息没有填写完整哦" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
@@ -156,6 +163,13 @@
     }];
 
     
+}
+
+
+
+- (void)closeKeyBoard
+{
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 
 @end
