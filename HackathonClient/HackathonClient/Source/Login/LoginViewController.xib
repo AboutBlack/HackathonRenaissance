@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,16 +17,6 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这里是logo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smm-M4-kiK">
-                    <rect key="frame" x="128" y="71" width="120" height="21"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="120" id="Akp-U7-ef5"/>
-                        <constraint firstAttribute="height" constant="21" id="Laj-5K-5TS"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QbF-2p-MhF">
                     <rect key="frame" x="36" y="129" width="303" height="44"/>
                     <constraints>
@@ -95,20 +85,27 @@
                         <action selector="forgetPasswordClick:" destination="-1" eventType="touchUpInside" id="fpD-Wc-hjZ"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon180" translatesAutoresizingMaskIntoConstraints="NO" id="W0W-fc-Cal">
+                    <rect key="frame" x="157" y="28" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="MPe-vx-GTz"/>
+                        <constraint firstAttribute="width" constant="60" id="tzV-yR-07h"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="QbF-2p-MhF" secondAttribute="trailing" constant="36" id="0NZ-AB-GgE"/>
                 <constraint firstItem="QbF-2p-MhF" firstAttribute="top" secondItem="S1m-hL-JfK" secondAttribute="bottom" constant="8" id="1ZS-fe-YCC"/>
-                <constraint firstItem="Smm-M4-kiK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="71" id="4DB-fw-izS"/>
                 <constraint firstItem="R9Q-Tq-Z8A" firstAttribute="top" secondItem="09X-37-DN0" secondAttribute="bottom" constant="27" id="4yO-YG-XEf"/>
                 <constraint firstItem="Fu4-gq-D4J" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="9kz-Uz-vf2"/>
-                <constraint firstItem="Smm-M4-kiK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ADX-Jh-b3N"/>
+                <constraint firstItem="W0W-fc-Cal" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="28" id="ACl-tx-q6Q"/>
                 <constraint firstItem="QbF-2p-MhF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="Bc6-v6-ANx"/>
                 <constraint firstItem="09X-37-DN0" firstAttribute="top" secondItem="lZw-pl-svC" secondAttribute="bottom" constant="20" id="BlQ-lE-pAE"/>
                 <constraint firstItem="lZw-pl-svC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="Hat-bW-kOf"/>
                 <constraint firstItem="DjJ-ig-Web" firstAttribute="top" secondItem="lZw-pl-svC" secondAttribute="bottom" constant="20" id="IRD-2b-Ldc"/>
                 <constraint firstAttribute="trailing" secondItem="lZw-pl-svC" secondAttribute="trailing" constant="36" id="QhA-D6-gCW"/>
+                <constraint firstItem="W0W-fc-Cal" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XjK-Tt-FF5"/>
                 <constraint firstAttribute="trailing" secondItem="R9Q-Tq-Z8A" secondAttribute="trailing" constant="36" id="Z6B-ea-M3W"/>
                 <constraint firstItem="lZw-pl-svC" firstAttribute="top" secondItem="Fu4-gq-D4J" secondAttribute="bottom" constant="8" id="ZPW-yk-tGc"/>
                 <constraint firstItem="S1m-hL-JfK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="ctX-2w-dTQ"/>
@@ -120,4 +117,7 @@
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
         </view>
     </objects>
+    <resources>
+        <image name="icon180" width="90" height="90"/>
+    </resources>
 </document>
