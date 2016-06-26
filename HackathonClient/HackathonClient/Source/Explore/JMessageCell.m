@@ -161,7 +161,7 @@
             make.left.mas_equalTo(self.descLabel);
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
             make.height.mas_equalTo(180);
-            make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size));
+            make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size)-20);
         }];
         
         //([UIScreen mainScreen].bounds.size.width-(2*kGAP+kAvatar_Size)*2);
@@ -277,7 +277,7 @@
         make.left.mas_equalTo(self.descLabel);
         make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
         make.height.mas_equalTo(180);
-    make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size));
+    make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width-(2*kAvatar_Size)-20);
     }];
     
     //创建ScrollView子视图容器视图
@@ -361,7 +361,21 @@
 }
 
 
-
+-(UIImage *)rescaleImageToSize:(CGSize)size {
+    
+    CGRect rect = CGRectMake(0.0, 0.0, size.width, size.height);
+    
+    UIGraphicsBeginImageContext(rect.size);
+    
+ //   [self drawInRect:rect];  // scales image to rect
+    
+    UIImage *resImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return resImage;
+    
+}
 
 
 
