@@ -89,6 +89,8 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         
        // NSArray *array = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
         
+        [self.dataSource removeAllObjects];
+        
         for (NSDictionary *dic in responseObject) {
          
             
@@ -102,7 +104,14 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
         [self.exploreTableView.mj_header endRefreshing];
 
         
+//        if ([self.dataSource count] > 0 ) {
+//            [self.exploreTableView cyl_reloadData];
+//        }
+        
         [self.exploreTableView cyl_reloadData];
+
+        
+        
     
     }
      
@@ -223,7 +232,7 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
 }
 
 #pragma mark --data
-- (UIView *)weChatStylePlaceHolder {
+- (UIView *)makePlaceHolderView {
     WeChatStylePlaceHolder *weChatStylePlaceHolder = [[WeChatStylePlaceHolder alloc] initWithFrame:self.exploreTableView.frame];
     weChatStylePlaceHolder.delegate = self;
     return weChatStylePlaceHolder;

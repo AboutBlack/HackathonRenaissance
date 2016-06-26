@@ -155,6 +155,8 @@
         
         self.backgroundColor = [UIColor redColor];
         
+        self.backgroundView.contentMode = UIViewContentModeScaleAspectFit;
+        
         [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.descLabel);
             make.top.mas_equalTo(self.descLabel.mas_bottom).offset(kGAP);
