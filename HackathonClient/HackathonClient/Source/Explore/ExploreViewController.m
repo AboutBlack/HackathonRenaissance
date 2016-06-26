@@ -211,10 +211,12 @@ static  NSString * const kJMessageIdentify =  @"kJMessageIdentify";
     if (indexPath.row < [self.dataSource count]) {
     
         JMessageModel *model = [self.dataSource objectAtIndex:indexPath.row];
+        
+        
         WatchViewController *watch = [[WatchViewController alloc] init];
         [self presentViewController:watch animated:YES completion:nil];
         
-        NSLog(@"点击====");
+
     }
     
     
