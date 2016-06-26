@@ -13,6 +13,7 @@
 #import "HSDatePickerViewController.h"
 #import "NSString+Hack.h"
 #import "SVProgressHUD.h"
+#import "AppDelegate.h"
 
 @interface PublicViewController ()<UITextFieldDelegate,TZImagePickerControllerDelegate,HSDatePickerViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
@@ -29,6 +30,12 @@
 @end
 
 @implementation PublicViewController
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController.tabBarController.tabBar setHidden:NO];
+    [super viewWillDisappear:animated];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -154,7 +161,6 @@
         // 成功;
         [self.navigationController popViewControllerAnimated:NO];
         [SVProgressHUD showSuccessWithStatus:@"添加成功"];
-        
         [[NSNotificationCenter defaultCenter]postNotificationName:kShouldRefreshData object:nil];
         
     } failure:^(NSURLSessionTask *operation, NSError *error) {

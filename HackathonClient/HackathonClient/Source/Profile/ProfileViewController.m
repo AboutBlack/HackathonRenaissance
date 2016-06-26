@@ -14,9 +14,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(watch)];
+//    UIBarButtonItem *btnItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(watch)];
     
-    self.navigationItem.rightBarButtonItem = btnItem;
+//    self.navigationItem.rightBarButtonItem = btnItem;
 }
 
 - (void)watch {
